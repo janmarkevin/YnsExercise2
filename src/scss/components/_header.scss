@@ -1,0 +1,24 @@
+.header{
+    background: rgba($white-color,.8);
+    padding:  4rem 0;
+
+    &__wrapper{
+        @include flex($flex-direction: null,$justify-content: space-between,$align: null);
+        max-width: 1900px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &__btn{
+        display: flex;
+        justify-content: end;
+    }
+
+    &__logo-container{
+        min-height: 64px;
+    }
+    
+    &__nav-container{
+        margin: 1.5rem 0 0 0;
+    }
+}

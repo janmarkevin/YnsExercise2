@@ -1,0 +1,58 @@
+// fonts
+@font-face {
+    font-family: 'A-OTF-ShinGoPr6-ExLight';
+    src: url('/dist/fonts/A-OTF-ShinGoPr6-ExLight.otf') format(truetype);
+}
+@font-face {
+    font-family: 'A-OTF-ShinGoPr6-Light';
+    src: url('/dist/fonts/A-OTF-ShinGoPr6-Light.otf') format(truetype);
+}
+@font-face {
+    font-family: 'Microsoft-TaHei-Font';
+    src: url('/dist/fonts/Microsoft-TaHei-Font.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'Microsoft-TaHei-Bold-Font';
+    src: url('/dist/fonts/Microsoft-TaHei-Bold-Font.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'yugothib';
+    src: url('/dist/fonts/yugothib.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'yugothil';
+    src: url('/dist/fonts/yugothil.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'yumin';
+    src: url('/dist/fonts/yumin.ttf') format(truetype);
+}
+// colors
+$primary-color: #CD282D;
+$secondary-color: #4D4D4D;
+$light-grey: #666666;
+$black-color: #000000;
+$light-black-color: #1A1A1A;
+$white-color: #FFFFFF;
+
+// fonts var
+$ff-MicrosoftTaiLe-font-light: Microsoft-TaHei-Font;
+$ff-MicrosoftTaiLe-font-bold: Microsoft-TaHei-Bold-Font;
+$ff-shingo: A-OTF-ShinGoPr6-ExLight;
+$ff-yugothib: yugothib;
+$ff-yugothil: yugothil;
+$ff-yumin: yumin;
+
+// font size
+$font-small: 1rem;
+$font-small-half: 1.5rem;
+$font-med: 2rem;
+$font-med-half: 2.5rem;
+$font-large: 3rem;
+$font-large: 3.5rem;
+$font-Xlarge: 4rem;
+
+// font-weight
+$fontweight-bold: 800;
+$fontweight-medium: 600;
+$fontweight-regular: 300;

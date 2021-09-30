@@ -1,2 +1,12 @@
-@import 'generic/_normalize.scss';
-@import 'generic/_reset.scss';
+@import 'settings/settings';
+@import 'tools/flex';
+@import 'generic/normalize';
+@import 'elements/elements';
+
+// components
+@import 'components/header';
+@import 'components/logo';
+@import 'components/nav';
+@import 'components/button';
+
+// trumps

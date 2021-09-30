@@ -1,0 +1,39 @@
+.btn{
+  padding: .5rem 1.5rem .5rem 4rem;
+  position: relative;  
+  background: transparent;
+  border: 0.4px solid $light-grey;
+  border-radius: .8rem;
+
+    &__icon{
+      position: absolute;
+      
+      &--header-tele{
+        top: 8px;
+        left: 10px;
+      }
+      &--header-mail{
+        left: 10px;
+      }
+    }
+    &__text{
+        font-size: $font-small-half;
+        font-family: $ff-yugothib;
+        color: $primary-color;
+        font-weight: $fontweight-bold;
+
+        &--small{
+            font-size: $font-small;
+        }
+        &--larger{
+            font-size: $font-med-half;
+        }
+    }
+
+    &--header-mail{
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 1.5rem;
+    }
+
+}

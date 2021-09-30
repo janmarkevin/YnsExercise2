@@ -1,0 +1,43 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  &__item {
+    padding: 0 4rem;
+    position: relative;
+
+    &:first-of-type::after{
+      top: 5.8px;
+    }
+    
+    &:last-of-type::after{
+      display: none;
+    }
+
+    &::after{
+        content: '';
+        background: $light-grey;
+        width: 2px;
+        height: 2rem;
+        position: absolute;
+        right: 0;
+    }
+
+    &:last-of-type{
+      padding-right: 0;
+    }
+    
+    &:first-of-type{
+      padding-left: 0;
+    }
+
+  }
+    &__link {
+        color: $secondary-color;
+        font-size: $font-small-half;
+        font-weight: $fontweight-medium;
+    }
+}
