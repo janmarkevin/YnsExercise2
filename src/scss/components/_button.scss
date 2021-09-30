@@ -19,23 +19,23 @@
     }
 
     &__text {
-        font-size: $font-small-half;
-        font-family: $ff-yugothib;
-        color: $primary-color;
-        font-weight: $fontweight-bold;
+      font-size: $font-small-half;
+      font-family: $ff-yugothib;
+      color: $primary-color;
+      font-weight: $fontweight-bold;
 
         &--small {
-            font-size: $font-small;
+          font-size: $font-small;
         }
 
         &--larger {
-            font-size: $font-med-half;
+          font-size: $font-med-half;
         }
-    }
-    
+      }
+
     &--header-mail {
-        display: flex;
-        align-items: center;
-        margin: 0 0 0 15px;
+      display: flex;
+      align-items: center;
+      margin: 0 0 0 15px;
     }
 }
