@@ -459,7 +459,7 @@ li {
   flex-direction: column; }
   .logo__text {
     font-size: 1.3rem;
-    font-family: A-OTF-ShinGoPr6-ExLight; }
+    font-family: "A-OTF-ShinGoPr6-ExLight"; }
   .logo__img-wrapper {
     max-width: 250px; }
   .logo__img {
@@ -509,7 +509,7 @@ li {
       left: 10px; }
   .btn__text {
     font-size: 1.5rem;
-    font-family: yugothib;
+    font-family: "yugothib";
     color: #cd282d;
     font-weight: 800; }
     .btn__text--small {
@@ -540,7 +540,7 @@ li {
     width: 90%;
     margin: 0 auto; }
   .binding-target__title {
-    font-family: Microsoft-TaHei-Bold-Font;
+    font-family: "Microsoft-TaHei-Bold-Font";
     text-transform: uppercase;
     font-weight: 600;
     color: #FFF;
@@ -572,3 +572,20 @@ li {
     font-size: 1.5rem;
     padding: 10px 0 0 0;
     line-height: 17px; }
+
+.goal {
+  padding: 60px 0;
+  text-align: center; }
+  .goal__wrapper {
+    max-width: 1900px;
+    width: 90%;
+    margin: 0 auto; }
+  .goal__title {
+    font-size: 3.5rem;
+    font-family: "Microsoft-TaHei-Font";
+    color: #1A1A1A;
+    text-transform: uppercase;
+    padding: 0 0 20px 0; }
+  .goal__text {
+    font-size: 1.5rem;
+    color: #1A1A1A; }
