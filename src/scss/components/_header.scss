@@ -1,6 +1,8 @@
 .header {
-  background: rgba($white-color, 0.8);
+  background: rgba($white-color, 0.5);
   padding: 40px 0;
+  position: relative;
+  z-index: 1;
 
   &__wrapper {
     @include flex($flex-direction: null, $justify-content: space-between, $align: null);
