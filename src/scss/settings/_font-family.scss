@@ -34,32 +34,10 @@
   src: url('/dist/fonts/yumin.ttf') format(truetype);
 }
 
-// colors
-$primary-color: #cd282d;
-$secondary-color: #4d4d4d;
-$light-grey: #666;
-$black-color: #000;
-$light-black-color: #1A1A1A;
-$white-color: #FFF;
-
-// fonts var
-$ff-MicrosoftTaiLe-font-light: Microsoft-TaHei-Font;
+// fonts Family
+$ff-MicrosoftTaiLe-font-light: 'Microsoft-TaHei-Font';
 $ff-MicrosoftTaiLe-font-bold: Microsoft-TaHei-Bold-Font;
 $ff-shingo: A-OTF-ShinGoPr6-ExLight;
 $ff-yugothib: yugothib;
 $ff-yugothil: yugothil;
 $ff-yumin: yumin;
-
-// font size
-$font-small: 1rem;
-$font-small-half: 1.5rem;
-$font-med: 2rem;
-$font-med-half: 2.5rem;
-$font-large: 3rem;
-$font-large: 3.5rem;
-$font-Xlarge: 4rem;
-
-// font-weight
-$fontweight-bold: 800;
-$fontweight-medium: 600;
-$fontweight-regular: 300;

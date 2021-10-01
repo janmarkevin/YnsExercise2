@@ -6,9 +6,7 @@
 
   &__wrapper {
     @include flex($flex-direction: null, $justify-content: space-between, $align: null);
-    max-width: 1900px;
-    width: 90%;
-    margin: 0 auto;
+    @include wrapper;
   }
 
   &__btn {
