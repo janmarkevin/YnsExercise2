@@ -548,7 +548,7 @@ li {
     font-size: 2.5rem; }
   .binding-target__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 15px 0; }
   .binding-target__item {
     min-height: 215px;
@@ -589,3 +589,36 @@ li {
   .goal__text {
     font-size: 1.5rem;
     color: #1A1A1A; }
+
+.work {
+  padding: 40px 0;
+  background: #f0bec0; }
+  .work__wrapper {
+    max-width: 1900px;
+    width: 90%;
+    margin: 0 auto; }
+  .work__title {
+    color: #1A1A1A;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center; }
+  .work__list-wrapper {
+    padding: 10px 0; }
+  .work__list {
+    display: flex;
+    flex-wrap: wrap; }
+  .work__item {
+    width: 257px;
+    height: 209px;
+    margin: 10px;
+    position: relative; }
+  .work__img-wrapper {
+    height: 209px;
+    background: red; }
+  .work__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top; }
+  .work__item-title {
+    position: absolute; }
