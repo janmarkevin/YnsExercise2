@@ -7,7 +7,7 @@
 
   &__icon {
     position: absolute;
-    
+
     &--header-tele {
       top: 8px;
       left: 10px;
@@ -32,8 +32,7 @@
       font-size: $font-med-half;
     }
   }
-  
-    // Block button Modifier
+
   &--header-mail {
     display: flex;
     align-items: center;

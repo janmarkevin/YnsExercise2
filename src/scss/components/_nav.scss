@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: end;
   }
-  
+
   &__item {
     padding: 0 40px;
     position: relative;
@@ -12,7 +12,7 @@
     &:first-of-type::after {
       top: 5.8px;
     }
-    
+
     &:last-of-type::after {
       display: none;
     }
@@ -29,12 +29,12 @@
     &:last-of-type {
       padding-right: 0;
     }
-    
+
     &:first-of-type {
       padding-left: 0;
     }
   }
-  
+
   &__link {
     color: $secondary-color;
     font-size: $font-small-half;
