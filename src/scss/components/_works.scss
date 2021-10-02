@@ -20,6 +20,7 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   &__item {
@@ -41,7 +42,27 @@
     object-position: top;
   }
 
-  &__item-title {
+  &__overlay {
+    width: 257px;
+    height: 209px;
     position: absolute;
+    background: rgba($black-color, 0.6);
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid white;
+    outline-offset: -10px;
+  }
+
+  &__item-title {
+    color: $white-color;
+    font-weight: $fontweight-medium;
+    font-size: $font-small-half;
+  }
+
+  &__btn-wrapper {
+    display: flex;
+    justify-content: end;
   }
 }

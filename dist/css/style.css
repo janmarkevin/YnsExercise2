@@ -507,6 +507,10 @@ li {
       left: 10px; }
     .btn__icon--header-mail {
       left: 10px; }
+    .btn__icon--work {
+      position: static;
+      top: 7px;
+      right: 9px; }
   .btn__text {
     font-size: 1.5rem;
     font-family: "yugothib";
@@ -520,6 +524,18 @@ li {
     display: flex;
     align-items: center;
     margin: 0 0 0 15px; }
+  .btn--show-more {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #cd282d;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer; }
+  .btn__text--work {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 300; }
 
 .banner__img-container {
   margin-top: -178px;
@@ -606,7 +622,8 @@ li {
     padding: 10px 0; }
   .work__list {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
   .work__item {
     width: 257px;
     height: 209px;
@@ -620,5 +637,21 @@ li {
     height: 100%;
     object-fit: cover;
     object-position: top; }
+  .work__overlay {
+    width: 257px;
+    height: 209px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid white;
+    outline-offset: -10px; }
   .work__item-title {
-    position: absolute; }
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.5rem; }
+  .work__btn-wrapper {
+    display: flex;
+    justify-content: end; }
