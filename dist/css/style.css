@@ -558,7 +558,7 @@ li {
     flex-direction: column;
     justify-content: center;
     background: #cd282d; }
-    .btn--contact--grey {
+    .btn--contact-grey {
       background: #666;
       margin: 0 25px 0 0; }
 
@@ -765,7 +765,7 @@ li {
     font-size: 2rem; }
 
 .contacts {
-  padding: 50px 0 30px 0;
+  padding: 50px 0 30px;
   border-bottom: solid 1px #cd282d; }
   .contacts__btn-wrapper {
     max-width: 1900px;
