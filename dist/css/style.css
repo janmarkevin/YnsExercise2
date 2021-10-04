@@ -630,8 +630,7 @@ li {
     margin: 10px;
     position: relative; }
   .work__img-wrapper {
-    height: 209px;
-    background: red; }
+    height: 209px; }
   .work__img {
     width: 100%;
     height: 100%;
@@ -646,7 +645,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 1px solid white;
+    outline: 1px solid #FFF;
     outline-offset: -10px; }
   .work__item-title {
     color: #FFF;
