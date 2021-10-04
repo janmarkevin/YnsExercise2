@@ -28,7 +28,7 @@
     object-fit: cover;
     object-position: center;
     overflow-y: hidden;
-    background-color: $secondary-color
+    background-color: $secondary-color;
   }
 
   &__img {
@@ -47,7 +47,7 @@
     font-size: $font-small;
     color: $light-black-color;
     font-weight: lighter;
-    padding: 0 15px 0 0
+    padding: 0 15px 0 0;
   }
 
   &__category {
@@ -66,7 +66,7 @@
     }
 
     &--apple-green {
-      background: #91B122;
+      background: #91b122;
     }
   }
 
