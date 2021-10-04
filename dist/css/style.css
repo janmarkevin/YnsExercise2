@@ -511,6 +511,15 @@ li {
       position: static;
       top: 7px;
       right: 9px; }
+    .btn__icon--contact {
+      width: 30px;
+      right: 27px;
+      top: 23px;
+      position: absolute; }
+  .btn__title--contact {
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase; }
   .btn__text {
     font-size: 1.5rem;
     font-family: "yugothib";
@@ -520,6 +529,14 @@ li {
       font-size: 1rem; }
     .btn__text--larger {
       font-size: 2.5rem; }
+    .btn__text--work, .btn__text--news {
+      color: #FFF;
+      font-size: 1rem;
+      font-weight: 300; }
+    .btn__text--contact {
+      color: #FFF;
+      font-size: 1rem;
+      font-weight: 300; }
   .btn--header-mail {
     display: flex;
     align-items: center;
@@ -532,10 +549,18 @@ li {
     padding: 10px;
     width: 120px;
     cursor: pointer; }
-  .btn__text--work, .btn__text--news {
+  .btn--contact {
+    padding: 20px 80px 20px 40px;
     color: #FFF;
-    font-size: 1rem;
-    font-weight: 300; }
+    position: relative;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #cd282d; }
+    .btn--contact--grey {
+      background: #666;
+      margin: 0 25px 0 0; }
 
 .banner__img-container {
   margin-top: -178px;
@@ -733,8 +758,18 @@ li {
     text-transform: uppercase;
     font-weight: 600;
     font-family: "Microsoft-TaHei-Font";
-    padding: 0px 0 30px 0; }
+    padding: 0 0 30px 0; }
   .feature__text {
     color: #FFF;
     font-weight: 300;
     font-size: 2rem; }
+
+.contacts {
+  padding: 50px 0 30px 0;
+  border-bottom: solid 1px #cd282d; }
+  .contacts__btn-wrapper {
+    max-width: 1900px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; }
