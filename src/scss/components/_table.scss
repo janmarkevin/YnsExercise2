@@ -1,0 +1,29 @@
+.table {
+  text-align: left;
+  border-collapse:separate; 
+  position: relative;
+
+  &__header {
+    color: $primary-color;
+    font-weight: $fontweight-bold;
+    text-transform: uppercase;
+  }
+
+  &__row {
+    padding: 1px 10px;
+  }
+
+  &__links {
+    text-decoration: underline;
+    color: $primary-color;
+    font-weight: $fontweight-regular;
+  }
+
+&::before {
+  content: "";
+  background: $primary-color;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+}
+}

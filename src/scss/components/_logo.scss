@@ -4,13 +4,18 @@
   &__text {
     font-size: 1.3rem;
     font-family: $ff-shingo;
+    color: $light-grey;
+
+    &--footer {
+      padding: 20px 0 0 0;
+    }
   }
 
   &__img-wrapper {
-    max-width: 250px;
   }
 
   &__img {
     height: 64px;
+    width: 100%;
   }
 }
