@@ -703,7 +703,7 @@ li {
     .news__category--orange {
       background: #ff8200; }
     .news__category--apple-green {
-      background: #91B122; }
+      background: #91b122; }
   .news__badge {
     width: 50px;
     position: absolute;
@@ -715,3 +715,26 @@ li {
   .news__btn-wrapper {
     display: flex;
     justify-content: end; }
+
+.feature {
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8)), url("../../dist/img/agathe.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 200px 0; }
+  .feature__wrapper {
+    max-width: 1900px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center; }
+  .feature__title {
+    color: #FFF;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Microsoft-TaHei-Font";
+    padding: 0px 0 30px 0; }
+  .feature__text {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 2rem; }

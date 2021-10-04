@@ -1,0 +1,27 @@
+.feature {
+  background-image: linear-gradient(0deg, rgba($light-black-color, 0.8), rgba($light-black-color, 0.8)), url("../../dist/img/agathe.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 200px 0;
+
+  &__wrapper {
+    @include wrapper;
+    text-align: center;
+  }
+
+  &__title {
+    color: $white-color;
+    font-size: $font-large;
+    text-transform: uppercase;
+    font-weight: $fontweight-medium;
+    font-family: $ff-MicrosoftTaiLe-font-light;
+    padding: 0px 0 30px 0;
+  }
+
+  &__text {
+    color: $white-color;
+    font-weight: $fontweight-regular;
+    font-size: $font-med;
+  }
+}
