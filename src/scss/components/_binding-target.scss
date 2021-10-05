@@ -1,0 +1,53 @@
+.binding-target {
+  background: $primary-color;
+  padding: 15px 0;
+
+  &__wrapper {
+    @include wrapper;
+  }
+
+  &__title {
+    font-family: $ff-MicrosoftTaiLe-font-bold;
+    text-transform: uppercase;
+    font-weight: $fontweight-medium;
+    color: $white-color;
+    text-align: center;
+    font-size: $font-med-half;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+  }
+
+  &__item {
+    min-height: 215px;
+    width: 250px;
+    padding: 15px;
+    background: transparent;
+    border: $white-color solid 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__img-container {
+    text-align: center;
+  }
+
+  &__img {
+    width: 150px;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  &__text {
+    color: $white-color;
+    font-size: $font-small-half;
+    padding: 10px 0 0 0;
+    line-height: 17px;
+  }
+}

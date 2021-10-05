@@ -1,0 +1,21 @@
+.goal {
+  padding: 60px 0;
+  text-align: center;
+
+  &__wrapper {
+    @include wrapper;
+  }
+
+  &__title {
+    font-size: $font-large;
+    font-family: $ff-MicrosoftTaiLe-font-light;
+    color: $light-black-color;
+    text-transform: uppercase;
+    padding: 0 0 20px 0;
+  }
+
+  &__text {
+    font-size: $font-small-half;
+    color: $light-black-color;
+  }
+}
