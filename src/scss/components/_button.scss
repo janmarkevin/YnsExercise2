@@ -23,6 +23,21 @@
       top: 7px;
       right: 9px;
     }
+
+    &--contact {
+      width: 30px;
+      right: 27px;
+      top: 23px;
+      position: absolute;
+    }
+  }
+
+  &__title {
+    &--contact {
+      font-weight: $fontweight-bold;
+      font-size: $font-small-half;
+      text-transform: uppercase;
+    }
   }
 
   &__text {
@@ -38,6 +53,19 @@
     &--larger {
       font-size: $font-med-half;
     }
+
+    &--work,
+    &--news {
+      color: $white-color;
+      font-size: $font-small;
+      font-weight: $fontweight-regular;
+    }
+
+    &--contact {
+      color: $white-color;
+      font-size: $font-small;
+      font-weight: $fontweight-regular;
+    }
   }
 
   &--header-mail {
@@ -46,7 +74,8 @@
     margin: 0 0 0 15px;
   }
 
-  // Work Button
+  // Other Button
+  // work btn
   &--show-more {
     display: flex;
     justify-content: space-evenly;
@@ -57,10 +86,20 @@
     cursor: pointer;
   }
 
-  &__text--work,
-  &__text--news {
+  //Contact Btn
+  &--contact {
+    padding: 20px 80px 20px 40px;
     color: $white-color;
-    font-size: $font-small;
-    font-weight: $fontweight-regular;
+    position: relative;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: $primary-color;
+
+    &-grey {
+      background: $light-grey;
+      margin: 0 25px 0 0;
+    }
   }
 }
