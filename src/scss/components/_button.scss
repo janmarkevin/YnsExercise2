@@ -1,16 +1,17 @@
 .btn {
-  padding: 5px 15px 5px 40px;
+  padding: 1px 9px 1px 50px;
   position: relative;  
   background: transparent;
-  border: 0.4px solid $light-grey;
+  border: 0.5px solid #b3b3b3;
   border-radius: 6px;
+  cursor: pointer;
 
   &__icon {
     position: absolute;
 
     &--header-tele {
-      top: 8px;
-      left: 10px;
+      top: 7px;
+      left: 14px;
     }
 
     &--header-mail {

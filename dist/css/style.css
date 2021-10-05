@@ -436,10 +436,12 @@ li {
   list-style: none; }
 
 .header {
+  display: flex;
+  align-items: center;
   background: rgba(255, 255, 255, 0.5);
-  padding: 40px 0;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  height: 130px; }
   .header__wrapper {
     display: flex;
     justify-content: space-between;
@@ -458,14 +460,15 @@ li {
   display: flex;
   flex-direction: column; }
   .logo__text {
-    font-size: 1.3rem;
-    font-family: "A-OTF Shin Go Pr6 L";
+    font-size: 1.2rem;
+    font-family: "A-OTF Shin Go Pr6 EL";
     color: #666; }
     .logo__text--footer {
       padding: 20px 0 0 0; }
   .logo__img {
     height: 64px;
-    width: 100%; }
+    width: 244px;
+    object-fit: contain; }
 
 .nav__list {
   display: flex;
@@ -473,19 +476,20 @@ li {
   justify-content: end; }
 
 .nav__item {
-  padding: 0 40px;
+  padding: 0 35px;
   position: relative; }
   .nav__item:first-of-type::after {
-    top: 5.8px; }
+    top: 5px; }
   .nav__item:last-of-type::after {
     display: none; }
   .nav__item::after {
     content: '';
     background: #666;
-    width: 2px;
-    height: 20px;
+    width: 1px;
+    height: 17px;
     position: absolute;
-    right: 0; }
+    right: 0;
+    top: -3px; }
   .nav__item:last-of-type {
     padding-right: 0; }
   .nav__item:first-of-type {
@@ -493,21 +497,22 @@ li {
 
 .nav__link {
   color: #4d4d4d;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   font-family: "Microsoft Tai Le"; }
 
 .btn {
-  padding: 5px 15px 5px 40px;
+  padding: 1px 9px 1px 50px;
   position: relative;
   background: transparent;
-  border: 0.4px solid #666;
-  border-radius: 6px; }
+  border: 0.5px solid #b3b3b3;
+  border-radius: 6px;
+  cursor: pointer; }
   .btn__icon {
     position: absolute; }
     .btn__icon--header-tele {
-      top: 8px;
-      left: 10px; }
+      top: 7px;
+      left: 14px; }
     .btn__icon--header-mail {
       left: 10px; }
     .btn__icon--work, .btn__icon--news {
