@@ -595,14 +595,15 @@ li {
     font-weight: 300;
     color: #FFF;
     text-align: center;
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    letter-spacing: 2px; }
   .binding-target__list {
     display: flex;
-    justify-content: space-evenly;
-    padding: 15px 0; }
+    justify-content: space-between;
+    padding: 10px 0; }
   .binding-target__item {
     min-height: 215px;
-    width: 250px;
+    width: 215px;
     padding: 15px;
     background: transparent;
     border: #FFF solid 1px;
@@ -620,8 +621,9 @@ li {
   .binding-target__text {
     color: #FFF;
     font-size: 1.5rem;
-    padding: 10px 0 0 0;
-    line-height: 17px; }
+    padding: 20px 0 0 0;
+    line-height: 20px;
+    font-weight: 800; }
 
 .goal {
   padding: 60px 0;

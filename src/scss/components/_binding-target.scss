@@ -13,17 +13,18 @@
     color: $white-color;
     text-align: center;
     font-size: $font-med-half;
+    letter-spacing: 2px;
   }
 
   &__list {
     display: flex;
-    justify-content: space-evenly;
-    padding: 15px 0;
+    justify-content: space-between;
+    padding: 10px 0;
   }
 
   &__item {
     min-height: 215px;
-    width: 250px;
+    width: 215px;
     padding: 15px;
     background: transparent;
     border: $white-color solid 1px;
@@ -47,7 +48,8 @@
   &__text {
     color: $white-color;
     font-size: $font-small-half;
-    padding: 10px 0 0 0;
-    line-height: 17px;
+    padding: 20px 0 0 0;
+    line-height: 20px;
+    font-weight: $fontweight-bold;
   }
 }
