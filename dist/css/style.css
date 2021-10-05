@@ -573,16 +573,18 @@ li {
       background: #666;
       margin: 0 25px 0 0; }
 
-.banner__img-container {
-  margin-top: -178px;
-  position: relative;
-  z-index: 0;
-  height: 765px;
+.banner {
+  height: 100vh;
   width: 100%;
-  overflow-y: hidden; }
-
-.banner__img {
-  width: 100%; }
+  height: 100vh;
+  object-fit: cover;
+  object-position: bottom;
+  margin-top: -140px; }
+  .banner__img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: bottom; }
 
 .binding-target {
   background: #cd282d;
