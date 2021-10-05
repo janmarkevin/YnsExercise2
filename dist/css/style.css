@@ -1,29 +1,29 @@
 @font-face {
-  font-family: 'A-OTF-ShinGoPr6-ExLight';
+  font-family: 'A-OTF Shin Go Pr6 EL';
   src: url("/dist/fonts/A-OTF-ShinGoPr6-ExLight.otf") format(truetype); }
 
 @font-face {
-  font-family: 'A-OTF-ShinGoPr6-Light';
+  font-family: 'A-OTF Shin Go Pr6 L';
   src: url("/dist/fonts/A-OTF-ShinGoPr6-Light.otf") format(truetype); }
 
 @font-face {
-  font-family: 'Microsoft-TaHei-Font';
-  src: url("/dist/fonts/Microsoft-TaHei-Font.ttf") format(truetype); }
+  font-family: 'Microsoft Tai Le';
+  src: url("/dist/fonts/Microsoft-Tai-Le.ttf") format(truetype); }
 
 @font-face {
-  font-family: 'Microsoft-TaHei-Bold-Font';
+  font-family: 'Microsoft Yahei';
   src: url("/dist/fonts/Microsoft-TaHei-Bold-Font.ttf") format(truetype); }
 
 @font-face {
-  font-family: 'yugothib';
+  font-family: 'Yu Gothic';
   src: url("/dist/fonts/yugothib.ttf") format(truetype); }
 
 @font-face {
-  font-family: 'yugothil';
+  font-family: 'Yu Ghotic Light';
   src: url("/dist/fonts/yugothil.ttf") format(truetype); }
 
 @font-face {
-  font-family: 'yumin';
+  font-family: 'Yu Mincho';
   src: url("/dist/fonts/yumin.ttf") format(truetype); }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -443,7 +443,7 @@ li {
   .header__wrapper {
     display: flex;
     justify-content: space-between;
-    max-width: 1900px;
+    max-width: 950px;
     width: 90%;
     margin: 0 auto; }
   .header__btn {
@@ -459,7 +459,7 @@ li {
   flex-direction: column; }
   .logo__text {
     font-size: 1.3rem;
-    font-family: "A-OTF-ShinGoPr6-ExLight";
+    font-family: "A-OTF Shin Go Pr6 L";
     color: #666; }
     .logo__text--footer {
       padding: 20px 0 0 0; }
@@ -494,7 +494,8 @@ li {
 .nav__link {
   color: #4d4d4d;
   font-size: 1.5rem;
-  font-weight: 600; }
+  font-weight: 600;
+  font-family: "Microsoft Tai Le"; }
 
 .btn {
   padding: 5px 15px 5px 40px;
@@ -524,11 +525,12 @@ li {
     text-transform: uppercase; }
   .btn__text {
     font-size: 1.5rem;
-    font-family: "yugothib";
+    font-family: "Yu Gothic";
     color: #cd282d;
     font-weight: 800; }
     .btn__text--small {
-      font-size: 1rem; }
+      font-size: 1rem;
+      font-weight: 600; }
     .btn__text--larger {
       font-size: 2.5rem; }
     .btn__text--work, .btn__text--news {
@@ -579,13 +581,13 @@ li {
   background: #cd282d;
   padding: 15px 0; }
   .binding-target__wrapper {
-    max-width: 1900px;
+    max-width: 950px;
     width: 90%;
     margin: 0 auto; }
   .binding-target__title {
-    font-family: "Microsoft-TaHei-Bold-Font";
+    font-family: "Microsoft Tai Le";
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
     color: #FFF;
     text-align: center;
     font-size: 2.5rem; }
@@ -620,15 +622,16 @@ li {
   padding: 60px 0;
   text-align: center; }
   .goal__wrapper {
-    max-width: 1900px;
+    max-width: 950px;
     width: 90%;
     margin: 0 auto; }
   .goal__title {
     font-size: 3.5rem;
-    font-family: "Microsoft-TaHei-Font";
+    font-family: "Microsoft Tai Le";
     color: #1A1A1A;
     text-transform: uppercase;
-    padding: 0 0 20px 0; }
+    padding: 0 0 20px 0;
+    font-weight: 300; }
   .goal__text {
     font-size: 1.5rem;
     color: #1A1A1A; }
@@ -637,14 +640,16 @@ li {
   padding: 40px 0;
   background: #f0bec0; }
   .work__wrapper {
-    max-width: 1900px;
+    max-width: 1100px;
     width: 90%;
     margin: 0 auto; }
   .work__title {
     color: #1A1A1A;
     text-transform: uppercase;
     font-size: 2rem;
-    text-align: center; }
+    text-align: center;
+    font-family: "Microsoft Tai Le";
+    font-weight: 600; }
   .work__list-wrapper {
     padding: 10px 0; }
   .work__list {
@@ -652,7 +657,7 @@ li {
     flex-wrap: wrap;
     justify-content: center; }
   .work__item {
-    width: 257px;
+    width: 255px;
     height: 209px;
     margin: 10px;
     position: relative; }
@@ -685,7 +690,7 @@ li {
 .news {
   padding: 30px 0; }
   .news__wrapper {
-    max-width: 1900px;
+    max-width: 1100px;
     width: 90%;
     margin: 0 auto; }
   .news__title {
@@ -750,7 +755,7 @@ li {
   position: relative;
   padding: 200px 0; }
   .feature__wrapper {
-    max-width: 1900px;
+    max-width: 950px;
     width: 90%;
     margin: 0 auto;
     text-align: center; }
@@ -758,8 +763,8 @@ li {
     color: #FFF;
     font-size: 3.5rem;
     text-transform: uppercase;
-    font-weight: 600;
-    font-family: "Microsoft-TaHei-Font";
+    font-weight: 300;
+    font-family: "Microsoft Tai Le";
     padding: 0 0 30px 0; }
   .feature__text {
     color: #FFF;
@@ -770,7 +775,7 @@ li {
   padding: 50px 0 30px;
   border-bottom: solid 1px #cd282d; }
   .contacts__btn-wrapper {
-    max-width: 1900px;
+    max-width: 950px;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -780,7 +785,7 @@ li {
   padding: 50px 0; }
 
 .footer__wrapper {
-  max-width: 1900px;
+  max-width: 950px;
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -795,7 +800,7 @@ li {
 .footer__copywrite {
   color: #FFF;
   font-weight: 800;
-  font-family: "yugothil"; }
+  font-family: "Yu Ghotic Light"; }
 
 .table {
   text-align: left;

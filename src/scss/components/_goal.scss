@@ -3,15 +3,16 @@
   text-align: center;
 
   &__wrapper {
-    @include wrapper;
+    @include wrapper__a;
   }
 
   &__title {
     font-size: $font-large;
-    font-family: $ff-MicrosoftTaiLe-font-light;
+    font-family: $ff-MicrosoftTaiLe;
     color: $light-black-color;
     text-transform: uppercase;
     padding: 0 0 20px 0;
+    font-weight: $fontweight-regular;
   }
 
   &__text {

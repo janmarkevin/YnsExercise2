@@ -42,12 +42,13 @@
 
   &__text {
     font-size: $font-small-half;
-    font-family: $ff-yugothib;
+    font-family: $ff-yugothic;
     color: $primary-color;
     font-weight: $fontweight-bold;
 
     &--small {
       font-size: $font-small;
+      font-weight: $fontweight-medium;
     }
 
     &--larger {

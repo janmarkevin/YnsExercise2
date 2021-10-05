@@ -1,5 +1,11 @@
-@mixin wrapper {
-  max-width: 1900px;
+@mixin wrapper__a {
+  max-width: 950px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@mixin wrapper__wn {
+  max-width: 1100px;
   width: 90%;
   margin: 0 auto;
 }

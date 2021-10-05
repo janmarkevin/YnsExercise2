@@ -4,7 +4,7 @@
   }
 
   &__wrapper {
-    @include wrapper;
+    @include wrapper__a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +19,6 @@
   &__copywrite {
     color: $white-color;
     font-weight: $fontweight-bold;
-    font-family: $ff-yugothil;
+    font-family: $ff-yugothiclight;
   }
 }
