@@ -460,14 +460,15 @@ li {
   display: flex;
   flex-direction: column; }
   .logo__text {
-    font-size: 1.3rem;
-    font-family: "A-OTF Shin Go Pr6 L";
+    font-size: 1rem;
+    font-family: "A-OTF Shin Go Pr6 EL";
     color: #666; }
     .logo__text--footer {
       padding: 20px 0 0 0; }
   .logo__img {
     height: 64px;
-    width: 100%; }
+    width: 244px;
+    object-fit: contain; }
 
 .nav__list {
   display: flex;
@@ -475,7 +476,7 @@ li {
   justify-content: end; }
 
 .nav__item {
-  padding: 0 25px;
+  padding: 0 35px;
   position: relative; }
   .nav__item:first-of-type::after {
     top: 5.8px; }
@@ -495,21 +496,21 @@ li {
 
 .nav__link {
   color: #4d4d4d;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   font-family: "Microsoft Tai Le"; }
 
 .btn {
-  padding: 5px 15px 5px 40px;
+  padding: 1px 9px 1px 50px;
   position: relative;
   background: transparent;
-  border: 0.4px solid #666;
+  border: 0.5px solid #b3b3b3;
   border-radius: 6px; }
   .btn__icon {
     position: absolute; }
     .btn__icon--header-tele {
-      top: 8px;
-      left: 10px; }
+      top: 7px;
+      left: 14px; }
     .btn__icon--header-mail {
       left: 10px; }
     .btn__icon--work, .btn__icon--news {
