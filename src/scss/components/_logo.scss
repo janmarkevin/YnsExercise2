@@ -1,0 +1,18 @@
+.logo {
+  @include flex ($flex-direction: column, $align: null, $justify-content: null);
+
+  &__text {
+    font-size: 1.3rem;
+    font-family: $ff-shingo;
+    color: $light-grey;
+
+    &--footer {
+      padding: 20px 0 0 0;
+    }
+  }
+
+  &__img {
+    height: 64px;
+    width: 100%;
+  }
+}

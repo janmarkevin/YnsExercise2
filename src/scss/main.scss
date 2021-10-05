@@ -1,2 +1,26 @@
-@import 'generic/_normalize.scss';
-@import 'generic/_reset.scss';
+@import 'settings/color';
+@import 'settings/font-family';
+@import 'settings/fonts';
+
+@import 'tools/flex';
+@import 'tools/wrapper';
+
+@import 'generic/normalize';
+@import 'elements/elements';
+
+// components
+@import 'components/header';
+@import 'components/logo';
+@import 'components/nav';
+@import 'components/button';
+@import 'components/banner';
+@import 'components/binding-target';
+@import 'components/goal';
+@import 'components/works';
+@import 'components/news';
+@import 'components/feature';
+@import 'components/contacts';
+@import 'components/footer';
+@import 'components/table';
+
+// trumps

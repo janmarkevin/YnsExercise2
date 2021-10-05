@@ -1,0 +1,105 @@
+.btn {
+  padding: 5px 15px 5px 40px;
+  position: relative;  
+  background: transparent;
+  border: 0.4px solid $light-grey;
+  border-radius: 6px;
+
+  &__icon {
+    position: absolute;
+
+    &--header-tele {
+      top: 8px;
+      left: 10px;
+    }
+
+    &--header-mail {
+      left: 10px;
+    }
+
+    &--work,
+    &--news {
+      position: static;
+      top: 7px;
+      right: 9px;
+    }
+
+    &--contact {
+      width: 30px;
+      right: 27px;
+      top: 23px;
+      position: absolute;
+    }
+  }
+
+  &__title {
+    &--contact {
+      font-weight: $fontweight-bold;
+      font-size: $font-small-half;
+      text-transform: uppercase;
+    }
+  }
+
+  &__text {
+    font-size: $font-small-half;
+    font-family: $ff-yugothib;
+    color: $primary-color;
+    font-weight: $fontweight-bold;
+
+    &--small {
+      font-size: $font-small;
+    }
+
+    &--larger {
+      font-size: $font-med-half;
+    }
+
+    &--work,
+    &--news {
+      color: $white-color;
+      font-size: $font-small;
+      font-weight: $fontweight-regular;
+    }
+
+    &--contact {
+      color: $white-color;
+      font-size: $font-small;
+      font-weight: $fontweight-regular;
+    }
+  }
+
+  &--header-mail {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 15px;
+  }
+
+  // Other Button
+  // work btn
+  &--show-more {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: $primary-color;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+  }
+
+  //Contact Btn
+  &--contact {
+    padding: 20px 80px 20px 40px;
+    color: $white-color;
+    position: relative;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: $primary-color;
+
+    &-grey {
+      background: $light-grey;
+      margin: 0 25px 0 0;
+    }
+  }
+}

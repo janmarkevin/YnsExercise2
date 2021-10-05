@@ -1,0 +1,43 @@
+// fonts
+@font-face {
+  font-family: 'A-OTF-ShinGoPr6-ExLight';
+  src: url('/dist/fonts/A-OTF-ShinGoPr6-ExLight.otf') format(truetype);
+}
+
+@font-face {
+  font-family: 'A-OTF-ShinGoPr6-Light';
+  src: url('/dist/fonts/A-OTF-ShinGoPr6-Light.otf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Microsoft-TaHei-Font';
+  src: url('/dist/fonts/Microsoft-TaHei-Font.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'Microsoft-TaHei-Bold-Font';  
+  src: url('/dist/fonts/Microsoft-TaHei-Bold-Font.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'yugothib';
+  src: url('/dist/fonts/yugothib.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'yugothil';
+  src: url('/dist/fonts/yugothil.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: 'yumin';
+  src: url('/dist/fonts/yumin.ttf') format(truetype);
+}
+
+// fonts Family
+$ff-MicrosoftTaiLe-font-light: 'Microsoft-TaHei-Font';
+$ff-MicrosoftTaiLe-font-bold: 'Microsoft-TaHei-Bold-Font';
+$ff-shingo: 'A-OTF-ShinGoPr6-ExLight';
+$ff-yugothib: 'yugothib';
+$ff-yugothil: 'yugothil';
+$ff-yumin: 'yumin';
