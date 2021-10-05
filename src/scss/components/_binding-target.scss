@@ -3,13 +3,13 @@
   padding: 15px 0;
 
   &__wrapper {
-    @include wrapper;
+    @include wrapper__a;
   }
 
   &__title {
-    font-family: $ff-MicrosoftTaiLe-font-bold;
+    font-family: $ff-MicrosoftTaiLe;
     text-transform: uppercase;
-    font-weight: $fontweight-medium;
+    font-weight: $fontweight-regular;
     color: $white-color;
     text-align: center;
     font-size: $font-med-half;

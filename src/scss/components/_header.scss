@@ -6,7 +6,7 @@
 
   &__wrapper {
     @include flex($flex-direction: null, $justify-content: space-between, $align: null);
-    @include wrapper;
+    @include wrapper__a;
   }
 
   &__btn {

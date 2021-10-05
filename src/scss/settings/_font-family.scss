@@ -1,43 +1,44 @@
 // fonts
 @font-face {
-  font-family: 'A-OTF-ShinGoPr6-ExLight';
+  font-family: 'A-OTF Shin Go Pr6 EL';
   src: url('/dist/fonts/A-OTF-ShinGoPr6-ExLight.otf') format(truetype);
 }
 
 @font-face {
-  font-family: 'A-OTF-ShinGoPr6-Light';
+  font-family: 'A-OTF Shin Go Pr6 L';
   src: url('/dist/fonts/A-OTF-ShinGoPr6-Light.otf') format(truetype);
 }
 
 @font-face {
-  font-family: 'Microsoft-TaHei-Font';
-  src: url('/dist/fonts/Microsoft-TaHei-Font.ttf') format(truetype);
+  font-family: 'Microsoft Tai Le';
+  src: url('/dist/fonts/Microsoft-Tai-Le.ttf') format(truetype);
 }
 
 @font-face {
-  font-family: 'Microsoft-TaHei-Bold-Font';  
+  font-family: 'Microsoft Yahei';  
   src: url('/dist/fonts/Microsoft-TaHei-Bold-Font.ttf') format(truetype);
 }
 
 @font-face {
-  font-family: 'yugothib';
+  font-family: 'Yu Gothic';
   src: url('/dist/fonts/yugothib.ttf') format(truetype);
 }
 
 @font-face {
-  font-family: 'yugothil';
+  font-family: 'Yu Ghotic Light';
   src: url('/dist/fonts/yugothil.ttf') format(truetype);
 }
 
 @font-face {
-  font-family: 'yumin';
+  font-family: 'Yu Mincho';
   src: url('/dist/fonts/yumin.ttf') format(truetype);
 }
 
 // fonts Family
-$ff-MicrosoftTaiLe-font-light: 'Microsoft-TaHei-Font';
-$ff-MicrosoftTaiLe-font-bold: 'Microsoft-TaHei-Bold-Font';
-$ff-shingo: 'A-OTF-ShinGoPr6-ExLight';
-$ff-yugothib: 'yugothib';
-$ff-yugothil: 'yugothil';
-$ff-yumin: 'yumin';
+$ff-shingoExlight: 'A-OTF Shin Go Pr6 EL';
+$ff-shingolight: 'A-OTF Shin Go Pr6 L';
+$ff-MicrosoftTaiLe: 'Microsoft Tai Le';
+$ff-MicrosoftYahei: 'Microsoft Yahei';
+$ff-yugothic: 'Yu Gothic';
+$ff-yugothiclight: 'Yu Ghotic Light';
+$ff-yumin: 'Yu Mincho';
