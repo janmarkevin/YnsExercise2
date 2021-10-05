@@ -575,10 +575,6 @@ li {
 
 .banner {
   height: 100vh;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  object-position: bottom;
   margin-top: -140px; }
   .banner__img {
     width: 100%;
