@@ -541,8 +541,9 @@ li {
       font-size: 2.5rem; }
     .btn__text--work, .btn__text--news {
       color: #FFF;
-      font-size: 1rem;
-      font-weight: 300; }
+      font-size: 1.5rem;
+      font-weight: 300;
+      font-family: "Yu Gothic"; }
     .btn__text--contact {
       color: #FFF;
       font-size: 1rem;
@@ -558,8 +559,10 @@ li {
     align-items: center;
     background: #cd282d;
     padding: 10px;
-    width: 120px;
-    cursor: pointer; }
+    width: 150px;
+    border: none;
+    width: 130px;
+    border-radius: 2px; }
   .btn--contact {
     padding: 20px 80px 20px 40px;
     color: #FFF;
@@ -658,10 +661,11 @@ li {
   .work__title {
     color: #1A1A1A;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     font-family: "Microsoft Tai Le";
-    font-weight: 600; }
+    font-weight: 300;
+    letter-spacing: 2px; }
   .work__list-wrapper {
     padding: 10px 0; }
   .work__list {
@@ -670,11 +674,11 @@ li {
     justify-content: center; }
   .work__item {
     width: 255px;
-    height: 209px;
+    height: 150px;
     margin: 10px;
     position: relative; }
   .work__img-wrapper {
-    height: 209px; }
+    height: 150px; }
   .work__img {
     width: 100%;
     height: 100%;
@@ -682,7 +686,7 @@ li {
     object-position: top; }
   .work__overlay {
     width: 257px;
-    height: 209px;
+    height: 150px;
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
     top: 0;
@@ -693,14 +697,15 @@ li {
     outline-offset: -10px; }
   .work__item-title {
     color: #FFF;
-    font-weight: 600;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    font-family: "Yu Gothic";
+    font-weight: 600; }
   .work__btn-wrapper {
     display: flex;
     justify-content: end; }
 
 .news {
-  padding: 30px 0; }
+  padding: 50px 0; }
   .news__wrapper {
     max-width: 1100px;
     width: 90%;
@@ -708,18 +713,20 @@ li {
   .news__title {
     color: #1A1A1A;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
-    font-family: "Microsoft Tai Le"; }
+    font-family: "Microsoft Tai Le";
+    font-weight: 300;
+    letter-spacing: 2px; }
   .news__list-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0; }
+    padding: 30px 0; }
   .news__item {
-    width: 30%; }
+    width: 32%; }
   .news__img-wrapper {
     width: 100%;
-    height: 300px;
+    height: 220px;
     object-fit: cover;
     object-position: center;
     overflow-y: hidden;
@@ -731,9 +738,9 @@ li {
   .news__header {
     position: relative; }
   .news__date {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #1A1A1A;
-    font-family: "Yu Ghotic Light";
+    font-family: "Yu Gothic";
     padding: 0 15px 0 0; }
   .news__category {
     width: 30px;
@@ -744,21 +751,36 @@ li {
     font-weight: 600;
     background: #00b5de;
     color: #FFF;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     border-radius: 3px; }
     .news__category--orange {
       background: #ff8200; }
     .news__category--apple-green {
       background: #91b122; }
   .news__badge {
-    width: 50px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #333;
     position: absolute;
     right: 0;
-    top: -40px; }
+    top: -40px;
+    outline: 1.9px solid #FFF;
+    outline-offset: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .news__badge-text {
+      text-transform: uppercase;
+      color: #FFF;
+      font-family: "Microsoft Tai Le";
+      font-weight: 800;
+      font-size: 1.3rem; }
   .news__text {
     padding: 10px 0 0 0;
-    font-size: 1.4rem;
-    font-family: "Yu Ghotic Light"; }
+    font-size: 1.3rem;
+    font-family: "Yu Gothic";
+    font-weight: 600; }
   .news__btn-wrapper {
     display: flex;
     justify-content: end; }
@@ -768,7 +790,8 @@ li {
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
-  padding: 200px 0; }
+  padding: 150px 0;
+  background-attachment: fixed; }
   .feature__wrapper {
     max-width: 950px;
     width: 90%;
@@ -780,11 +803,13 @@ li {
     text-transform: uppercase;
     font-weight: 300;
     font-family: "Microsoft Tai Le";
-    padding: 0 0 30px 0; }
+    padding: 0 0 30px 0;
+    letter-spacing: 5px; }
   .feature__text {
     color: #FFF;
     font-weight: 300;
-    font-size: 2rem; }
+    font-size: 2rem;
+    font-family: "Yu Mincho"; }
 
 .contacts {
   padding: 50px 0 30px;
