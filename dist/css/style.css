@@ -522,7 +522,8 @@ li {
   .btn__title--contact {
     font-weight: 800;
     font-size: 1.5rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-family: "Microsoft Yahei"; }
   .btn__text {
     font-size: 1.5rem;
     font-family: "Yu Gothic";
@@ -540,7 +541,8 @@ li {
     .btn__text--contact {
       color: #FFF;
       font-size: 1rem;
-      font-weight: 300; }
+      font-weight: 300;
+      font-family: "Yu Ghotic Light"; }
   .btn--header-mail {
     display: flex;
     align-items: center;
@@ -697,7 +699,8 @@ li {
     color: #1A1A1A;
     text-transform: uppercase;
     font-size: 2rem;
-    text-align: center; }
+    text-align: center;
+    font-family: "Microsoft Tai Le"; }
   .news__list-wrapper {
     display: flex;
     justify-content: space-between;
@@ -720,14 +723,15 @@ li {
   .news__date {
     font-size: 1rem;
     color: #1A1A1A;
-    font-weight: lighter;
+    font-family: "Yu Ghotic Light";
     padding: 0 15px 0 0; }
   .news__category {
     width: 30px;
     padding: 5px;
     font-size: 1rem;
+    font-family: "Yu Gothic";
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     background: #00b5de;
     color: #FFF;
     letter-spacing: 3px;
@@ -743,7 +747,8 @@ li {
     top: -40px; }
   .news__text {
     padding: 10px 0 0 0;
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    font-family: "Yu Ghotic Light"; }
   .news__btn-wrapper {
     display: flex;
     justify-content: end; }
@@ -800,7 +805,7 @@ li {
 .footer__copywrite {
   color: #FFF;
   font-weight: 800;
-  font-family: "Yu Ghotic Light"; }
+  font-family: "Yu Gothic"; }
 
 .table {
   text-align: left;
@@ -809,7 +814,8 @@ li {
     color: #cd282d;
     font-weight: 800;
     text-transform: uppercase;
-    padding: 5px 9px; }
+    padding: 5px 9px;
+    font-family: "Yu Gothic"; }
   .table__data {
     padding: 3px 9px; }
   .table__row {
@@ -817,7 +823,7 @@ li {
   .table__links {
     text-decoration: underline;
     color: #cd282d;
-    font-weight: 300; }
+    font-family: "Yu Ghotic Light"; }
   .table::before {
     content: "";
     background: #cd282d;

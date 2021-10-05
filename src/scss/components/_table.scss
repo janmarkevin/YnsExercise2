@@ -7,6 +7,7 @@
     font-weight: $fontweight-bold;
     text-transform: uppercase;
     padding: 5px 9px;
+    font-family: $ff-yugothic;
   }
 
   &__data {
@@ -20,7 +21,7 @@
   &__links {
     text-decoration: underline;
     color: $primary-color;
-    font-weight: $fontweight-regular;
+    font-family: $ff-yugothiclight;
   }
 
   &::before {
