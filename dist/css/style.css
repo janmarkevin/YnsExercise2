@@ -460,7 +460,7 @@ li {
   display: flex;
   flex-direction: column; }
   .logo__text {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "A-OTF Shin Go Pr6 EL";
     color: #666; }
     .logo__text--footer {
