@@ -1,5 +1,5 @@
 .table {
-  text-align: left;
+  text-align: left;  
   position: relative;
 
   &__head {
@@ -8,6 +8,7 @@
     text-transform: uppercase;
     padding: 5px 9px;
     font-family: $ff-yugothic;
+    font-size: $font-small-half;
   }
 
   &__data {
@@ -22,6 +23,12 @@
     text-decoration: underline;
     color: $primary-color;
     font-family: $ff-yugothiclight;
+
+    &--top {
+      font-weight: $ff-yugothic;
+      text-decoration: underline;
+      color: $primary-color;
+    }
   }
 
   &::before {
@@ -30,5 +37,6 @@
     width: 100%;
     height: 1px;
     position: absolute;
+    top: 33px;
   }
 }

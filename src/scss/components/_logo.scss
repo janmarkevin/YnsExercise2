@@ -7,7 +7,10 @@
     color: $light-grey;
 
     &--footer {
-      padding: 20px 0 0 0;
+      padding: 10px 0 0 0;
+      font-size: 1.6rem;
+      font-family: $ff-yugothic;
+      color: #333;
     }
   }
 
@@ -15,5 +18,11 @@
     height: 64px;
     width: 244px;
     object-fit: contain;
+
+    &--footer {
+      height: 50px;
+      width: 190px;
+      object-fit: contain;
+    }
   }
 }
