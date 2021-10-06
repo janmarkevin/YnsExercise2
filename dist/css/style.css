@@ -550,8 +550,8 @@ li {
     .btn__text--work, .btn__text--news {
       color: #FFF;
       font-size: 1.5rem;
-      font-weight: 600;
-      font-family: "Yu Gothic"; }
+      font-family: "Yu Gothic";
+      font-weight: 300; }
     .btn__text--contact {
       color: #FFF;
       font-size: 1.5rem;
@@ -567,7 +567,7 @@ li {
     align-items: center;
     background: #cd282d;
     padding: 10px;
-    width: 150px;
+    width: 160px;
     border: none;
     border-radius: 2px; }
   .btn--contact {
