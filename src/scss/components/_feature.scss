@@ -2,9 +2,13 @@
   background-image: linear-gradient(0deg, rgba($light-black-color, 0.8), rgba($light-black-color, 0.8)), url("../../dist/img/agathe.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
   padding: 150px 0;
+<<<<<<< HEAD
   background-attachment: fixed;
+=======
+>>>>>>> dd6bb6f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
 
   &__wrapper {
     @include wrapper__a;
