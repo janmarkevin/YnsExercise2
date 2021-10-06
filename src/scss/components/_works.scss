@@ -28,13 +28,17 @@
 
   &__item {
     width: 255px;
-    height: 150px;
+    height: 180px;
     margin: 10px;
     position: relative;
+
+    &:nth-of-type(7) .work__item-title {
+      font-size: 1.3rem;
+    }
   }
 
   &__img-wrapper {
-    height: 150px;
+    height: 180px;
   }
 
   &__img {
@@ -46,7 +50,7 @@
 
   &__overlay {
     width: 257px;
-    height: 150px;
+    height: 180px;
     position: absolute;
     background: rgba($black-color, 0.6);
     top: 0;
