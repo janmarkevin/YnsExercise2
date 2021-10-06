@@ -626,9 +626,9 @@ li {
     font-weight: 800; }
 
 .goal {
-  padding: 60px 0;
+  padding: 30px 0;
   text-align: center;
-  min-height: 317px;
+  min-height: 290px;
   display: flex;
   align-items: center; }
   .goal__wrapper {
@@ -636,15 +636,15 @@ li {
     width: 90%;
     margin: 0 auto; }
   .goal__title {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: "Microsoft Tai Le";
     color: #1A1A1A;
     text-transform: uppercase;
     padding: 0 0 20px 0;
-    font-weight: 800;
+    font-weight: 300;
     letter-spacing: 2px; }
   .goal__text {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #1A1A1A;
     font-family: "Yu Mincho"; }
 
