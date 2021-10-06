@@ -550,8 +550,13 @@ li {
     .btn__text--work, .btn__text--news {
       color: #FFF;
       font-size: 1.5rem;
+<<<<<<< HEAD
       font-family: "Yu Gothic";
       font-weight: 300; }
+=======
+      font-weight: 300;
+      font-family: "Yu Gothic"; }
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     .btn__text--contact {
       color: #FFF;
       font-size: 1.5rem;
@@ -566,7 +571,11 @@ li {
     justify-content: space-evenly;
     align-items: center;
     background: #cd282d;
+<<<<<<< HEAD
     padding: 13px 10px;
+=======
+    padding: 10px;
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     width: 160px;
     border: none;
     border-radius: 2px; }
@@ -683,21 +692,35 @@ li {
     justify-content: space-between; }
   .work__item {
     width: 255px;
+<<<<<<< HEAD
     height: 180px;
     margin: 13px 0;
+=======
+    height: 150px;
+    margin: 10px;
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     position: relative; }
     .work__item:nth-of-type(7) .work__item-title {
       font-size: 1.3rem; }
   .work__img-wrapper {
+<<<<<<< HEAD
     height: 180px; }
+=======
+    height: 150px; }
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
   .work__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top; }
   .work__overlay {
+<<<<<<< HEAD
     width: 255px;
     height: 180px;
+=======
+    width: 257px;
+    height: 150px;
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
     top: 0;
@@ -749,10 +772,19 @@ li {
   .news__header {
     position: relative; }
   .news__date {
+<<<<<<< HEAD
     font-size: 1.2rem;
     color: #1A1A1A;
     font-family: "Yu Gothic";
     padding: 0 15px 0 0; }
+=======
+    font-size: 1.7rem;
+    color: #1A1A1A;
+    font-family: "Yu Gothic";
+    padding: 0 15px 0 0;
+    top: 3px;
+    position: relative; }
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
   .news__category {
     width: 30px;
     padding: 5px;
@@ -763,7 +795,13 @@ li {
     background: #00b5de;
     color: #FFF;
     letter-spacing: 2px;
+<<<<<<< HEAD
     border-radius: 3px; }
+=======
+    border-radius: 1px; }
+    .news__category--add-width {
+      padding: 5px 15px; }
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     .news__category--orange {
       background: #ff8200; }
     .news__category--apple-green {
@@ -790,8 +828,12 @@ li {
   .news__text {
     padding: 10px 0 0 0;
     font-size: 1.3rem;
+<<<<<<< HEAD
     font-family: "Yu Gothic";
     font-weight: 600; }
+=======
+    font-family: "Yu Gothic"; }
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
   .news__btn-wrapper {
     display: flex;
     justify-content: end; }

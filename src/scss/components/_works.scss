@@ -28,8 +28,13 @@
 
   &__item {
     width: 255px;
+<<<<<<< HEAD
     height: 180px;
     margin: 13px 0;
+=======
+    height: 150px;
+    margin: 10px;
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     position: relative;
 
     &:nth-of-type(7) .work__item-title {
@@ -38,7 +43,11 @@
   }
 
   &__img-wrapper {
+<<<<<<< HEAD
     height: 180px;
+=======
+    height: 150px;
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
   }
 
   &__img {
@@ -49,8 +58,13 @@
   }
 
   &__overlay {
+<<<<<<< HEAD
     width: 255px;
     height: 180px;
+=======
+    width: 257px;
+    height: 150px;
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     position: absolute;
     background: rgba($black-color, 0.6);
     top: 0;
