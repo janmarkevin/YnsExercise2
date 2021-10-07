@@ -9,10 +9,11 @@
   &__title {
     color: $light-black-color;
     text-transform: uppercase;
-    font-size: $font-med;
+    font-size: $font-med-half;
     text-align: center;
     font-family: $ff-MicrosoftTaiLe;
-    font-weight: $fontweight-medium;
+    font-weight: $fontweight-regular;
+    letter-spacing: 2px;
   }
 
   &__list-wrapper {
@@ -27,13 +28,13 @@
 
   &__item {
     width: 255px;
-    height: 209px;
+    height: 150px;
     margin: 10px;
     position: relative;
   }
 
   &__img-wrapper {
-    height: 209px;
+    height: 150px;
   }
 
   &__img {
@@ -45,7 +46,7 @@
 
   &__overlay {
     width: 257px;
-    height: 209px;
+    height: 150px;
     position: absolute;
     background: rgba($black-color, 0.6);
     top: 0;
@@ -58,8 +59,9 @@
 
   &__item-title {
     color: $white-color;
-    font-weight: $fontweight-medium;
     font-size: $font-small-half;
+    font-family: $ff-yugothic;
+    font-weight: $fontweight-medium;
   }
 
   &__btn-wrapper {
