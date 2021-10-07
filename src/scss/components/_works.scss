@@ -23,18 +23,22 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   &__item {
     width: 255px;
-    height: 150px;
-    margin: 10px;
+    height: 180px;
+    margin: 13px 0;
     position: relative;
+
+    &:nth-of-type(7) .work__item-title {
+      font-size: 1.3rem;
+    }
   }
 
   &__img-wrapper {
-    height: 150px;
+    height: 180px;
   }
 
   &__img {
@@ -45,8 +49,8 @@
   }
 
   &__overlay {
-    width: 257px;
-    height: 150px;
+    width: 255px;
+    height: 180px;
     position: absolute;
     background: rgba($black-color, 0.6);
     top: 0;
