@@ -1,0 +1,1163 @@
+@font-face {
+  font-family: 'A-OTF Shin Go Pr6 EL';
+  src: url("/dist/fonts/A-OTF-ShinGoPr6-ExLight.otf") format(truetype);
+}
+
+@font-face {
+  font-family: 'A-OTF Shin Go Pr6 L';
+  src: url("/dist/fonts/A-OTF-ShinGoPr6-Light.otf") format(truetype);
+}
+
+@font-face {
+  font-family: 'Microsoft Tai Le';
+  src: url("/dist/fonts/Microsoft-Tai-Le.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: 'Microsoft Yahei';
+  src: url("/dist/fonts/Microsoft-TaHei-Bold-Font.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: 'Yu Gothic';
+  src: url("/dist/fonts/yugothib.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: 'Yu Ghotic Light';
+  src: url("/dist/fonts/yugothil.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: 'Yu Mincho';
+  src: url("/dist/fonts/yumin.ttf") format(truetype);
+}
+
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* Document
+   ========================================================================== */
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  z-index: 1;
+  height: 130px;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 950px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.header__logo-container {
+  min-height: 64px;
+}
+
+.header__nav-container {
+  margin: 15px 0 0 0;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logo__text {
+  font-size: 1.2rem;
+  font-family: "A-OTF Shin Go Pr6 EL";
+  color: #666;
+}
+
+.logo__text--footer {
+  padding: 20px 0 0 0;
+}
+
+.logo__img {
+  height: 64px;
+  width: 244px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.nav__item {
+  padding: 0 35px;
+  position: relative;
+}
+
+.nav__item:first-of-type::after {
+  top: 5px;
+}
+
+.nav__item:last-of-type::after {
+  display: none;
+}
+
+.nav__item::after {
+  content: '';
+  background: #666;
+  width: 1px;
+  height: 17px;
+  position: absolute;
+  right: 0;
+  top: -3px;
+}
+
+.nav__item:last-of-type {
+  padding-right: 0;
+}
+
+.nav__item:first-of-type {
+  padding-left: 0;
+}
+
+.nav__link {
+  color: #4d4d4d;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Microsoft Tai Le";
+}
+
+.btn {
+  padding: 1px 9px 1px 50px;
+  position: relative;
+  background: transparent;
+  border: 0.5px solid #b3b3b3;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn__icon {
+  position: absolute;
+}
+
+.btn__icon--header-tele {
+  top: 7px;
+  left: 14px;
+}
+
+.btn__icon--header-mail {
+  left: 10px;
+}
+
+.btn__icon--work, .btn__icon--news {
+  position: static;
+  top: 7px;
+  right: 9px;
+}
+
+.btn__icon--contact {
+  width: 30px;
+  right: 27px;
+  top: 23px;
+  position: absolute;
+}
+
+.btn__title--contact {
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: "Microsoft Yahei";
+}
+
+.btn__text {
+  font-size: 1.5rem;
+  font-family: "Yu Gothic";
+  color: #cd282d;
+  font-weight: 800;
+}
+
+.btn__text--small {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn__text--larger {
+  font-size: 2.5rem;
+}
+
+.btn__text--work, .btn__text--news {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.btn__text--contact {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Yu Ghotic Light";
+}
+
+.btn--header-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 0 15px;
+}
+
+.btn--show-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #cd282d;
+  padding: 10px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.btn--contact {
+  padding: 20px 80px 20px 40px;
+  color: #FFF;
+  position: relative;
+  border-radius: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #cd282d;
+}
+
+.btn--contact-grey {
+  background: #666;
+  margin: 0 25px 0 0;
+}
+
+.banner {
+  height: 100vh;
+  margin-top: -130px;
+}
+
+.banner__img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -162px;
+     object-position: 0 -162px;
+}
+
+.binding-target {
+  background: #cd282d;
+  padding: 15px 0;
+}
+
+.binding-target__wrapper {
+  max-width: 950px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.binding-target__title {
+  font-family: "Microsoft Tai Le";
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #FFF;
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.binding-target__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0;
+}
+
+.binding-target__item {
+  min-height: 215px;
+  width: 215px;
+  padding: 15px;
+  background: transparent;
+  border: #FFF solid 1px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.binding-target__img-container {
+  text-align: center;
+}
+
+.binding-target__img {
+  width: 150px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.binding-target__text {
+  color: #FFF;
+  font-size: 1.5rem;
+  padding: 20px 0 0 0;
+  line-height: 20px;
+  font-weight: 800;
+}
+
+.goal {
+  padding: 60px 0;
+  text-align: center;
+  min-height: 317px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.goal__wrapper {
+  max-width: 950px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.goal__title {
+  font-size: 3.5rem;
+  font-family: "Microsoft Tai Le";
+  color: #1A1A1A;
+  text-transform: uppercase;
+  padding: 0 0 20px 0;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.goal__text {
+  font-size: 1.5rem;
+  color: #1A1A1A;
+  font-family: "Yu Mincho";
+}
+
+.work {
+  padding: 40px 0;
+  background: #f0bec0;
+}
+
+.work__wrapper {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.work__title {
+  color: #1A1A1A;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Microsoft Tai Le";
+  font-weight: 600;
+}
+
+.work__list-wrapper {
+  padding: 10px 0;
+}
+
+.work__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.work__item {
+  width: 255px;
+  height: 209px;
+  margin: 10px;
+  position: relative;
+}
+
+.work__img-wrapper {
+  height: 209px;
+}
+
+.work__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.work__overlay {
+  width: 257px;
+  height: 209px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: 1px solid #FFF;
+  outline-offset: -10px;
+}
+
+.work__item-title {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.work__btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.news {
+  padding: 30px 0;
+}
+
+.news__wrapper {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.news__title {
+  color: #1A1A1A;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Microsoft Tai Le";
+}
+
+.news__list-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0;
+}
+
+.news__item {
+  width: 30%;
+}
+
+.news__img-wrapper {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  overflow-y: hidden;
+  background-color: #4d4d4d;
+}
+
+.news__img {
+  width: 100%;
+}
+
+.news__content {
+  padding: 20px;
+}
+
+.news__header {
+  position: relative;
+}
+
+.news__date {
+  font-size: 1rem;
+  color: #1A1A1A;
+  font-family: "Yu Ghotic Light";
+  padding: 0 15px 0 0;
+}
+
+.news__category {
+  width: 30px;
+  padding: 5px;
+  font-size: 1rem;
+  font-family: "Yu Gothic";
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #00b5de;
+  color: #FFF;
+  letter-spacing: 3px;
+  border-radius: 3px;
+}
+
+.news__category--orange {
+  background: #ff8200;
+}
+
+.news__category--apple-green {
+  background: #91b122;
+}
+
+.news__badge {
+  width: 50px;
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+
+.news__text {
+  padding: 10px 0 0 0;
+  font-size: 1.4rem;
+  font-family: "Yu Ghotic Light";
+}
+
+.news__btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.feature {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(26, 26, 26, 0.8)), to(rgba(26, 26, 26, 0.8))), url("../../dist/img/agathe.jpg");
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8)), url("../../dist/img/agathe.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 200px 0;
+}
+
+.feature__wrapper {
+  max-width: 950px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature__title {
+  color: #FFF;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: "Microsoft Tai Le";
+  padding: 0 0 30px 0;
+}
+
+.feature__text {
+  color: #FFF;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.contacts {
+  padding: 50px 0 30px;
+  border-bottom: solid 1px #cd282d;
+}
+
+.contacts__btn-wrapper {
+  max-width: 950px;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__top {
+  padding: 50px 0;
+}
+
+.footer__wrapper {
+  max-width: 950px;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__bottom {
+  background: #cd282d;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer__copywrite {
+  color: #FFF;
+  font-weight: 800;
+  font-family: "Yu Gothic";
+}
+
+.table {
+  text-align: left;
+  position: relative;
+}
+
+.table__head {
+  color: #cd282d;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 5px 9px;
+  font-family: "Yu Gothic";
+}
+
+.table__data {
+  padding: 3px 9px;
+}
+
+.table__row {
+  margin: 3px 10px;
+}
+
+.table__links {
+  text-decoration: underline;
+  color: #cd282d;
+  font-family: "Yu Ghotic Light";
+}
+
+.table::before {
+  content: "";
+  background: #cd282d;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+}
+/*# sourceMappingURL=main.css.map */
