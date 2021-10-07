@@ -47,10 +47,16 @@
   }
 
   &__date {
+<<<<<<< HEAD
     font-size: 1.2rem;
+=======
+    font-size: 1.7rem;
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     color: $light-black-color;
     font-family: $ff-yugothic;
     padding: 0 15px 0 0;
+    top: 3px;
+    position: relative;
   }
 
   &__category {
@@ -63,7 +69,15 @@
     background: #00b5de;
     color: $white-color;
     letter-spacing: 2px;
+<<<<<<< HEAD
     border-radius: 3px;
+=======
+    border-radius: 1px;
+
+    &--add-width {
+      padding: 5px 15px;
+    }
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
 
     &--orange {
       background: #ff8200;
@@ -101,7 +115,10 @@
     padding: 10px 0 0 0;
     font-size: 1.3rem;
     font-family: $ff-yugothic;
+<<<<<<< HEAD
     font-weight: $fontweight-medium
+=======
+>>>>>>> a64594f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
   }
 
   &__btn-wrapper{
