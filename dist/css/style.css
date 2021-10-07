@@ -680,11 +680,11 @@ li {
   .work__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; }
+    justify-content: space-between; }
   .work__item {
     width: 255px;
     height: 180px;
-    margin: 10px;
+    margin: 13px 0;
     position: relative; }
     .work__item:nth-of-type(7) .work__item-title {
       font-size: 1.3rem; }
@@ -696,7 +696,7 @@ li {
     object-fit: cover;
     object-position: top; }
   .work__overlay {
-    width: 257px;
+    width: 255px;
     height: 180px;
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
