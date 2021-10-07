@@ -12,6 +12,10 @@
       font-family: $ff-yugothic;
       color: #333;
     }
+
+    @media screen and (max-width: 1100px) {
+      font-size: $font-small;
+    }
   }
 
   &__img {
@@ -23,6 +27,10 @@
       height: 50px;
       width: 190px;
       object-fit: contain;
+    }
+
+    @media screen and (max-width: 1100px) {
+      width: 80%;
     }
   }
 }

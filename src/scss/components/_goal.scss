@@ -17,11 +17,19 @@
     padding: 0 0 20px 0;
     font-weight: $fontweight-regular;
     letter-spacing: 2px;
+
+    @media screen and (max-width: 767px) {
+      font-size: $font-large;
+    }
   }
 
   &__text {
     font-size: 1.8rem;
     color: $light-black-color;
     font-family: $ff-yumin;
+
+    @media screen and (max-width: 767px) {
+      font-weight: $fontweight-medium;
+    }
   }
 }

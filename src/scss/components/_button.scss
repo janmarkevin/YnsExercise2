@@ -52,10 +52,18 @@
     &--small {
       font-size: $font-small;
       font-weight: $fontweight-medium;
+
+      @media screen and (max-width: 1100px) {
+        font-size: 0.8rem;
+      }
     }
 
     &--larger {
       font-size: $font-med-half;
+
+      @media screen and (max-width: 1100px) {
+        font-size: $font-med;
+      }
     }
 
     &--work,

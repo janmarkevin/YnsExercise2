@@ -23,4 +23,10 @@
   &__nav-container {
     margin: 15px 0 0 0;
   }
+
+  @media screen and (max-width: 767px) {
+    &__links {
+      display: none;
+    }
+  }
 }
