@@ -26,15 +26,9 @@
     }
 
     &--contact {
-<<<<<<< HEAD
       width: 40px;
       right: 75px;
       top: 34px;
-=======
-      width: 30px;
-      right: 58px;
-      top: 19px;
->>>>>>> c62b51b... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
       position: absolute;
     }
   }
@@ -102,12 +96,8 @@
 
   //Contact Btn
   &--contact {
-<<<<<<< HEAD
     padding: 27px 93px;
     width: 46%;
-=======
-    padding: 20px 109px 20px 65px;
->>>>>>> c62b51b... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     color: $white-color;
     position: relative;
     border-radius: 0;
@@ -115,10 +105,7 @@
     flex-direction: column;
     background: $primary-color;
     border: none;
-<<<<<<< HEAD
     letter-spacing: 3px;
-=======
->>>>>>> c62b51b... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
 
     &-grey {
       background: $light-grey;

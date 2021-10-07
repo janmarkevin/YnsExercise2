@@ -527,15 +527,9 @@ li {
       top: 7px;
       right: 9px; }
     .btn__icon--contact {
-<<<<<<< HEAD
       width: 40px;
       right: 75px;
       top: 34px;
-=======
-      width: 30px;
-      right: 58px;
-      top: 19px;
->>>>>>> c62b51b... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
       position: absolute; }
   .btn__title--contact {
     font-weight: 800;
@@ -578,26 +572,16 @@ li {
     width: 130px;
     border-radius: 2px; }
   .btn--contact {
-<<<<<<< HEAD
     padding: 27px 93px;
     width: 46%;
-=======
-    padding: 20px 109px 20px 65px;
->>>>>>> c62b51b... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     color: #FFF;
     position: relative;
     border-radius: 0;
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     background: #cd282d;
     border: none;
     letter-spacing: 3px; }
-=======
-    justify-content: center;
-    background: #cd282d;
-    border: none; }
->>>>>>> c62b51b... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     .btn--contact-grey {
       background: #666;
       margin: 0 25px 0 0; }
@@ -665,15 +649,7 @@ li {
     width: 90%;
     margin: 0 auto; }
   .goal__title {
-<<<<<<< HEAD
-<<<<<<< HEAD
     font-size: 4rem;
-=======
-    font-size: 3rem;
->>>>>>> dd6bb6f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
-=======
-    font-size: 3rem;
->>>>>>> c62b51b... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     font-family: "Microsoft Tai Le";
     color: #1A1A1A;
     text-transform: uppercase;
@@ -825,16 +801,7 @@ li {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  padding: 150px 0;
-  background-attachment: fixed; }
-=======
   padding: 150px 0; }
->>>>>>> dd6bb6f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
-=======
-  padding: 150px 0; }
->>>>>>> c62b51b... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
   .feature__wrapper {
     max-width: 950px;
     width: 90%;
