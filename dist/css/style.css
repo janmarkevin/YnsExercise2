@@ -520,15 +520,16 @@ li {
       top: 7px;
       right: 9px; }
     .btn__icon--contact {
-      width: 30px;
-      right: 27px;
-      top: 23px;
+      width: 40px;
+      right: 75px;
+      top: 34px;
       position: absolute; }
   .btn__title--contact {
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    font-family: "Microsoft Yahei"; }
+    font-family: "Microsoft Yahei";
+    padding: 2px 0; }
   .btn__text {
     font-size: 1.5rem;
     font-family: "Yu Gothic";
@@ -546,7 +547,7 @@ li {
       font-family: "Yu Gothic"; }
     .btn__text--contact {
       color: #FFF;
-      font-size: 1rem;
+      font-size: 1.5rem;
       font-weight: 300;
       font-family: "Yu Ghotic Light"; }
   .btn--header-mail {
@@ -564,14 +565,16 @@ li {
     width: 130px;
     border-radius: 2px; }
   .btn--contact {
-    padding: 20px 80px 20px 40px;
+    padding: 27px 93px;
+    width: 46%;
     color: #FFF;
     position: relative;
     border-radius: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background: #cd282d; }
+    background: #cd282d;
+    border: none;
+    letter-spacing: 3px; }
     .btn--contact-grey {
       background: #666;
       margin: 0 25px 0 0; }
@@ -639,7 +642,11 @@ li {
     width: 90%;
     margin: 0 auto; }
   .goal__title {
+<<<<<<< HEAD
     font-size: 4rem;
+=======
+    font-size: 3rem;
+>>>>>>> dd6bb6f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
     font-family: "Microsoft Tai Le";
     color: #1A1A1A;
     text-transform: uppercase;
@@ -789,9 +796,14 @@ li {
   background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8)), url("../../dist/img/agathe.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
+<<<<<<< HEAD
   padding: 150px 0;
   background-attachment: fixed; }
+=======
+  padding: 150px 0; }
+>>>>>>> dd6bb6f... works_fix - spacing, Title letter space, boxes more rectangular, correct font family, button wider
   .feature__wrapper {
     max-width: 950px;
     width: 90%;
@@ -813,7 +825,7 @@ li {
 
 .contacts {
   padding: 50px 0 30px;
-  border-bottom: solid 1px #cd282d; }
+  border-bottom: solid 2px #cd282d; }
   .contacts__btn-wrapper {
     max-width: 950px;
     width: 90%;
