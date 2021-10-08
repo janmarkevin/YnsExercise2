@@ -458,6 +458,44 @@ li {
   @media screen and (max-width: 767px) {
     .header__links {
       display: none; } }
+  .header__mobile {
+    display: none;
+    bottom: -41px;
+    position: relative; }
+    @media screen and (max-width: 767px) {
+      .header__mobile {
+        display: block; } }
+  .header__mobile-line {
+    height: 6px;
+    width: 90%;
+    background: #cd282d;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative; }
+    .header__mobile-line::before {
+      content: "";
+      height: 6px;
+      width: 100%;
+      background: #cd282d;
+      border-radius: 10px;
+      position: absolute;
+      top: -15px; }
+    .header__mobile-line::after {
+      content: "";
+      height: 6px;
+      width: 100%;
+      background: #cd282d;
+      border-radius: 10px;
+      position: absolute;
+      top: -30px;
+      left: 0; }
+  .header__mobile-title {
+    font-size: 2rem;
+    color: #cd282d;
+    font-family: "Microsoft Tai Le";
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 5px 0 0 0; }
 
 .logo {
   display: flex;
@@ -471,20 +509,40 @@ li {
       font-size: 1.6rem;
       font-family: "Yu Gothic";
       color: #333; }
+      @media screen and (max-width: 1010px) {
+        .logo__text--footer {
+          font-size: 1.4rem;
+          padding: 3px 0 0 0; } }
+      @media screen and (max-width: 897px) {
+        .logo__text--footer {
+          font-size: 1.2rem; } }
+      @media screen and (max-width: 767px) {
+        .logo__text--footer {
+          font-size: 1.3rem;
+          padding: 0; } }
     @media screen and (max-width: 1100px) {
-      .logo__text {
+      .header__logo-container .logo__text {
         font-size: 1rem; } }
+  @media screen and (max-width: 767px) {
+    .logo__img-wrapper {
+      margin: 0 20px 0 0; } }
   .logo__img {
     height: 64px;
     width: 244px;
     object-fit: contain; }
+    @media screen and (max-width: 1100px) {
+      .header__logo-container .logo__img {
+        width: 80%; } }
     .logo__img--footer {
       height: 50px;
       width: 190px;
       object-fit: contain; }
-    @media screen and (max-width: 1100px) {
-      .logo__img {
-        width: 80%; } }
+      @media screen and (max-width: 897px) {
+        .logo__img--footer {
+          width: 150px; } }
+      @media screen and (max-width: 767px) {
+        .logo__img--footer {
+          width: 130px; } }
 
 .nav__list {
   display: flex;
@@ -543,12 +601,37 @@ li {
       right: 75px;
       top: 34px;
       position: absolute; }
+      @media screen and (max-width: 980px) {
+        .btn__icon--contact {
+          width: 37px;
+          top: 29px;
+          right: 40px; } }
+      @media screen and (max-width: 767px) {
+        .btn__icon--contact {
+          width: 50px;
+          top: 23px;
+          right: 140px; } }
+    @media screen and (max-width: 980px) {
+      .btn__icon--mail {
+        top: 25px; } }
+    @media screen and (max-width: 767px) {
+      .btn__icon--mail {
+        top: 23px; } }
   .btn__title--contact {
     font-weight: 800;
     font-size: 2rem;
     text-transform: uppercase;
     font-family: "Microsoft Yahei";
     padding: 2px 0; }
+    @media screen and (max-width: 980px) {
+      .btn__title--contact {
+        font-size: 1.5rem; } }
+    @media screen and (max-width: 767px) {
+      .btn__title--contact {
+        font-size: 3rem; } }
+    @media screen and (max-width: 767px) {
+      .btn__title--contact-number {
+        letter-spacing: 4px; } }
   .btn__text {
     font-size: 1.5rem;
     font-family: "Yu Gothic";
@@ -575,6 +658,12 @@ li {
       font-size: 1.5rem;
       font-weight: 300;
       font-family: "Yu Ghotic Light"; }
+      @media screen and (max-width: 980px) {
+        .btn__text--contact {
+          font-size: 1.1rem; } }
+      @media screen and (max-width: 767px) {
+        .btn__text--contact {
+          font-size: 2.4rem; } }
   .btn--header-mail {
     display: flex;
     align-items: center;
@@ -600,8 +689,14 @@ li {
     border: none;
     letter-spacing: 3px; }
     .btn--contact-grey {
-      background: #666;
-      margin: 0 25px 0 0; }
+      background: #666; }
+    @media screen and (max-width: 980px) {
+      .btn--contact {
+        padding: 27px 70px; } }
+    @media screen and (max-width: 767px) {
+      .btn--contact {
+        width: 100%;
+        padding: 10px 110px; } }
 
 .banner {
   height: 100vh;
@@ -726,6 +821,9 @@ li {
 .work {
   padding: 40px 0;
   background: #f0bec0; }
+  @media screen and (max-width: 767px) {
+    .work {
+      padding: 20px 0; } }
   .work__wrapper {
     max-width: 1100px;
     width: 90%;
@@ -740,6 +838,9 @@ li {
     letter-spacing: 2px; }
   .work__list-wrapper {
     padding: 10px 0; }
+    @media screen and (max-width: 767px) {
+      .work__list-wrapper {
+        padding: 15px 0; } }
   .work__list {
     display: flex;
     flex-wrap: wrap;
@@ -751,6 +852,12 @@ li {
     position: relative; }
     .work__item:nth-of-type(7) .work__item-title {
       font-size: 1.3rem; }
+    @media screen and (max-width: 1170px) {
+      .work__item {
+        width: 23%; } }
+    @media screen and (max-width: 767px) {
+      .work__item {
+        width: 48%; } }
   .work__img-wrapper {
     height: 180px; }
   .work__img {
@@ -759,7 +866,7 @@ li {
     object-fit: cover;
     object-position: top; }
   .work__overlay {
-    width: 255px;
+    width: 100%;
     height: 180px;
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
@@ -769,6 +876,10 @@ li {
     align-items: center;
     outline: 1px solid #FFF;
     outline-offset: -10px; }
+    @media screen and (max-width: 1170px) {
+      .work__overlay {
+        padding: 25px;
+        text-align: center; } }
   .work__item-title {
     color: #FFF;
     font-size: 1.5rem;
@@ -780,6 +891,9 @@ li {
 
 .news {
   padding: 50px 0; }
+  @media screen and (max-width: 767px) {
+    .news {
+      padding: 30px 0; } }
   .news__wrapper {
     max-width: 1100px;
     width: 90%;
@@ -796,8 +910,23 @@ li {
     display: flex;
     justify-content: space-between;
     padding: 30px 0; }
+    @media screen and (max-width: 1000px) {
+      .news__list-wrapper {
+        justify-content: center;
+        flex-wrap: wrap; } }
+    @media screen and (max-width: 767px) {
+      .news__list-wrapper {
+        padding: 10px 0; } }
   .news__item {
     width: 32%; }
+    @media screen and (max-width: 1000px) {
+      .news__item {
+        width: 43%;
+        margin: 15px; } }
+    @media screen and (max-width: 767px) {
+      .news__item {
+        width: 100%;
+        margin: 15px 0; } }
   .news__img-wrapper {
     width: 100%;
     height: 220px;
@@ -864,11 +993,16 @@ li {
 
 .feature {
   background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8)), url("../../dist/img/agathe.jpg");
-  background-size: 100%;
+  background-size: 150%;
   background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   position: relative;
   padding: 150px 0; }
+  @media screen and (max-width: 767px) {
+    .feature {
+      padding: 30px 0;
+      background-size: 180%; } }
   .feature__wrapper {
     max-width: 950px;
     width: 90%;
@@ -882,6 +1016,10 @@ li {
     font-family: "Microsoft Tai Le";
     padding: 0 0 30px 0;
     letter-spacing: 5px; }
+    @media screen and (max-width: 767px) {
+      .feature__title {
+        padding: 0 0 10px 0;
+        font-size: 3rem; } }
   .feature__text {
     color: #FFF;
     font-weight: 300;
@@ -891,15 +1029,31 @@ li {
 .contacts {
   padding: 50px 0 30px;
   border-bottom: solid 2px #cd282d; }
+  @media screen and (max-width: 767px) {
+    .contacts {
+      padding: 30px 0;
+      border: none; } }
   .contacts__btn-wrapper {
     max-width: 950px;
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: center; }
+    justify-content: space-around; }
+    @media screen and (max-width: 767px) {
+      .contacts__btn-wrapper {
+        flex-direction: column;
+        min-height: 180px;
+        justify-content: space-between; } }
 
 .footer__top {
   padding: 50px 0; }
+  @media screen and (max-width: 767px) {
+    .footer__top {
+      padding: 0; } }
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    display: none; } }
 
 .footer__wrapper {
   max-width: 950px;
@@ -908,6 +1062,14 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media screen and (max-width: 767px) {
+    .footer__wrapper {
+      flex-direction: column;
+      padding: 20px 0; } }
+
+@media screen and (max-width: 767px) {
+  .footer__logo-links {
+    display: flex; } }
 
 .footer__bottom {
   background: #cd282d;
@@ -919,6 +1081,26 @@ li {
   font-weight: 800;
   font-family: "Yu Gothic"; }
 
+.footer__mobile {
+  display: none; }
+  @media screen and (max-width: 767px) {
+    .footer__mobile {
+      display: block; } }
+  .footer__mobile-item-wrapper {
+    max-width: 950px;
+    width: 90%;
+    margin: 0 auto; }
+  .footer__mobile-item {
+    border-top: 0.75px solid #dc1715;
+    background: #fcf7fa;
+    padding: 15px 0; }
+  .footer__mobile-links {
+    font-family: "Yu Gothic";
+    text-transform: uppercase;
+    color: #cd282d;
+    font-weight: 800;
+    font-size: 2rem; }
+
 .table {
   text-align: left;
   position: relative; }
@@ -929,10 +1111,20 @@ li {
     padding: 5px 9px;
     font-family: "Yu Gothic";
     font-size: 1.5rem; }
+    @media screen and (max-width: 958px) {
+      .table__head {
+        padding: 5px 4px;
+        font-size: 1.3rem; } }
   .table__data {
     padding: 3px 9px; }
+    @media screen and (max-width: 958px) {
+      .table__data {
+        padding: 3px 4px; } }
   .table__row {
     margin: 3px 10px; }
+    @media screen and (max-width: 958px) {
+      .table__row {
+        margin: 3px 0; } }
   .table__links {
     text-decoration: underline;
     color: #cd282d;
@@ -941,6 +1133,9 @@ li {
       font-weight: "Yu Gothic";
       text-decoration: underline;
       color: #cd282d; }
+    @media screen and (max-width: 897px) {
+      .table__links {
+        font-size: 0.8rem; } }
   .table::before {
     content: "";
     background: #cd282d;

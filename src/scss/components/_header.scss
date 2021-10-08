@@ -29,4 +29,55 @@
       display: none;
     }
   }
+  
+  // mobile
+  &__mobile {
+    display: none;
+    bottom: -41px;
+    position: relative;
+
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+  }
+
+  &__mobile-line {
+    height: 6px;
+    width: 90%;
+    background: $primary-color;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+
+    &::before {
+      content: "";
+      height: 6px;
+      width: 100%;
+      background: $primary-color;
+      border-radius: 10px;
+      position: absolute;
+      top: -15px;
+    }
+
+    &::after {
+      content: "";
+      height: 6px;
+      width: 100%;
+      background: $primary-color;
+      border-radius: 10px;
+      position: absolute;
+      top: -30px;
+      left: 0;
+    }
+  }
+
+  &__mobile-title {
+    font-size: $font-med;
+    color: $primary-color;
+    font-family: $ff-MicrosoftTaiLe;
+    text-transform: uppercase;
+    font-weight: $fontweight-bold;
+    margin: 5px 0 0 0;
+  }
+
 }

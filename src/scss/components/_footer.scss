@@ -1,6 +1,16 @@
 .footer {
   &__top {
     padding: 50px 0;
+
+    @media screen and (max-width: 767px) {
+      padding: 0;
+    }
+  }
+
+  &__links {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
   }
 
   &__wrapper {
@@ -8,6 +18,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      padding: 20px 0;
+    }
+  }
+
+  &__logo-links {
+    @media screen and (max-width: 767px) {
+      display: flex;
+    }
   }
 
   &__bottom {
@@ -20,5 +41,31 @@
     color: $white-color;
     font-weight: $fontweight-bold;
     font-family: $ff-yugothic;
+  }
+
+  &__mobile {
+    display: none;
+
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+
+    &-item-wrapper {
+      @include wrapper__a;
+    }
+
+    &-item {
+      border-top: 0.75px solid #dc1715;
+      background: #fcf7fa;
+      padding: 15px 0;
+    }
+
+    &-links {
+      font-family: $ff-yugothic;
+      text-transform: uppercase;
+      color: $primary-color;
+      font-weight: $fontweight-bold;
+      font-size: $font-med;
+    }
   }
 }

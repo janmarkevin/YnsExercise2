@@ -25,11 +25,34 @@
       right: 9px;
     }
 
+    // contact Button
     &--contact {
       width: 40px;
       right: 75px;
       top: 34px;
       position: absolute;
+
+      @media screen and (max-width: 980px) {
+        width: 37px;
+        top: 29px;
+        right: 40px;
+      }
+
+      @media screen and (max-width: 767px) {
+        width: 50px;
+        top: 23px;
+        right: 140px;
+      }
+    }
+
+    &--mail {
+      @media screen and (max-width: 980px) {
+        top: 25px;
+      }
+
+      @media screen and (max-width: 767px) {
+        top: 23px;
+      }
     }
   }
 
@@ -40,6 +63,20 @@
       text-transform: uppercase;
       font-family: $ff-MicrosoftYahei;
       padding: 2px 0;
+
+      @media screen and (max-width: 980px) {
+        font-size: $font-small-half;
+      }
+
+      @media screen and (max-width: 767px) {
+        font-size: $font-large;
+      }
+
+      &-number {
+        @media screen and (max-width: 767px) {
+          letter-spacing: 4px;
+        }
+      }
     }
   }
 
@@ -79,6 +116,14 @@
       font-size: $font-small-half;
       font-weight: $fontweight-regular;
       font-family: $ff-yugothiclight;
+
+      @media screen and (max-width: 980px) {
+        font-size: 1.1rem;
+      }
+
+      @media screen and (max-width: 767px) {
+        font-size: 2.4rem;
+      }
     }
   }
 
@@ -116,7 +161,15 @@
 
     &-grey {
       background: $light-grey;
-      margin: 0 25px 0 0;
+    }
+
+    @media screen and (max-width: 980px) {
+      padding: 27px 70px;
+    }
+
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      padding: 10px 110px;
     }
   }
 }

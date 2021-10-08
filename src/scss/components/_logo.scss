@@ -11,10 +11,32 @@
       font-size: 1.6rem;
       font-family: $ff-yugothic;
       color: #333;
+
+      @media screen and (max-width: 1010px) {
+        font-size: 1.4rem;
+        padding: 3px 0 0 0;
+      }
+
+      @media screen and (max-width: 897px) {
+        font-size: 1.2rem;
+      }
+
+      @media screen and (max-width: 767px) {
+        font-size: 1.3rem;
+        padding: 0;
+      }
     }
 
     @media screen and (max-width: 1100px) {
-      font-size: $font-small;
+      .header__logo-container & {
+        font-size: $font-small;
+      }
+    }
+  }
+
+  &__img-wrapper {
+    @media screen and (max-width: 767px) {
+      margin: 0 20px 0 0;
     }
   }
 
@@ -23,14 +45,24 @@
     width: 244px;
     object-fit: contain;
 
+    @media screen and (max-width: 1100px) {
+      .header__logo-container & {
+        width: 80%;
+      }
+    }
+
     &--footer {
       height: 50px;
       width: 190px;
       object-fit: contain;
-    }
+  
+      @media screen and (max-width: 897px) {  
+        width: 150px;
+      }
 
-    @media screen and (max-width: 1100px) {
-      width: 80%;
+      @media screen and (max-width: 767px) {
+        width: 130px;
+      }
     }
   }
 }
