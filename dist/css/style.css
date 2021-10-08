@@ -1124,20 +1124,20 @@ li {
     position: absolute;
     top: 33px; }
 
-.footer-nav__mobile {
+.footer-nav {
   display: none; }
   @media screen and (max-width: 767px) {
-    .footer-nav__mobile {
+    .footer-nav {
       display: block; } }
-  .footer-nav__mobile-item-wrapper {
+  .footer-nav__item-wrapper {
     max-width: 950px;
     width: 90%;
     margin: 0 auto; }
-  .footer-nav__mobile-item {
+  .footer-nav__item {
     border-top: 0.75px solid #dc1715;
     background: #fcf7fa;
     padding: 15px 0; }
-  .footer-nav__mobile-links {
+  .footer-nav__links {
     font-family: "Yu Gothic";
     text-transform: uppercase;
     color: #cd282d;
