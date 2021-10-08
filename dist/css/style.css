@@ -1081,26 +1081,6 @@ li {
   font-weight: 800;
   font-family: "Yu Gothic"; }
 
-.footer__mobile {
-  display: none; }
-  @media screen and (max-width: 767px) {
-    .footer__mobile {
-      display: block; } }
-  .footer__mobile-item-wrapper {
-    max-width: 950px;
-    width: 90%;
-    margin: 0 auto; }
-  .footer__mobile-item {
-    border-top: 0.75px solid #dc1715;
-    background: #fcf7fa;
-    padding: 15px 0; }
-  .footer__mobile-links {
-    font-family: "Yu Gothic";
-    text-transform: uppercase;
-    color: #cd282d;
-    font-weight: 800;
-    font-size: 2rem; }
-
 .table {
   text-align: left;
   position: relative; }
@@ -1143,3 +1123,23 @@ li {
     height: 1px;
     position: absolute;
     top: 33px; }
+
+.footer-nav__mobile {
+  display: none; }
+  @media screen and (max-width: 767px) {
+    .footer-nav__mobile {
+      display: block; } }
+  .footer-nav__mobile-item-wrapper {
+    max-width: 950px;
+    width: 90%;
+    margin: 0 auto; }
+  .footer-nav__mobile-item {
+    border-top: 0.75px solid #dc1715;
+    background: #fcf7fa;
+    padding: 15px 0; }
+  .footer-nav__mobile-links {
+    font-family: "Yu Gothic";
+    text-transform: uppercase;
+    color: #cd282d;
+    font-weight: 800;
+    font-size: 2rem; }
