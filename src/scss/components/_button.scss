@@ -18,14 +18,12 @@
       left: 10px;
     }
 
-    &--work,
-    &--news {
+    // work and news icon
+    &--show-more {
       position: static;
-      top: 7px;
-      right: 9px;
     }
 
-    // contact Button
+    // contact Button header
     &--contact {
       width: 40px;
       right: 75px;
@@ -154,7 +152,6 @@
     position: relative;
     border-radius: 0;
     display: flex;
-    flex-direction: column;
     background: $primary-color;
     border: none;
     letter-spacing: 3px;
@@ -171,5 +168,10 @@
       width: 100%;
       padding: 10px 110px;
     }
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
   }
 }
