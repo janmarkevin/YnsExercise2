@@ -22,36 +22,6 @@
     &--show-more {
       position: static;
     }
-
-    // contact Button header
-    &--contact {
-      width: 40px;
-      right: 75px;
-      top: 34px;
-      position: absolute;
-
-      @media screen and (max-width: 980px) {
-        width: 37px;
-        top: 29px;
-        right: 40px;
-      }
-
-      @media screen and (max-width: 767px) {
-        width: 50px;
-        top: 23px;
-        right: 140px;
-      }
-    }
-
-    &--mail {
-      @media screen and (max-width: 980px) {
-        top: 25px;
-      }
-
-      @media screen and (max-width: 767px) {
-        top: 23px;
-      }
-    }
   }
 
   &__title {
@@ -122,6 +92,10 @@
       @media screen and (max-width: 767px) {
         font-size: 2.4rem;
       }
+
+      & img {
+
+      }
     }
   }
 
@@ -146,12 +120,14 @@
 
   //Contact Btn
   &--contact {
-    padding: 27px 93px;
+    padding: 27px 85px;
     width: 46%;
     color: $white-color;
     position: relative;
     border-radius: 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: $primary-color;
     border: none;
     letter-spacing: 3px;
@@ -167,6 +143,10 @@
     @media screen and (max-width: 767px) {
       width: 100%;
       padding: 10px 110px;
+    }
+
+    & img {
+      width: 40px;
     }
   }
 

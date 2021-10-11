@@ -594,27 +594,6 @@ li {
       left: 10px; }
     .btn__icon--show-more {
       position: static; }
-    .btn__icon--contact {
-      width: 40px;
-      right: 75px;
-      top: 34px;
-      position: absolute; }
-      @media screen and (max-width: 980px) {
-        .btn__icon--contact {
-          width: 37px;
-          top: 29px;
-          right: 40px; } }
-      @media screen and (max-width: 767px) {
-        .btn__icon--contact {
-          width: 50px;
-          top: 23px;
-          right: 140px; } }
-    @media screen and (max-width: 980px) {
-      .btn__icon--mail {
-        top: 25px; } }
-    @media screen and (max-width: 767px) {
-      .btn__icon--mail {
-        top: 23px; } }
   .btn__title--contact {
     font-weight: 800;
     font-size: 2rem;
@@ -676,12 +655,14 @@ li {
     border: none;
     border-radius: 2px; }
   .btn--contact {
-    padding: 27px 93px;
+    padding: 27px 85px;
     width: 46%;
     color: #FFF;
     position: relative;
     border-radius: 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #cd282d;
     border: none;
     letter-spacing: 3px; }
@@ -694,6 +675,8 @@ li {
       .btn--contact {
         width: 100%;
         padding: 10px 110px; } }
+    .btn--contact img {
+      width: 40px; }
   .btn__details {
     display: flex;
     flex-direction: column; }
