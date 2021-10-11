@@ -651,7 +651,7 @@ li {
         font-size: 3rem; } }
     @media screen and (max-width: 767px) {
       .btn__title--contact-number {
-        letter-spacing: 4px; } }
+        letter-spacing: 5px; } }
     @media screen and (max-width: 500px) {
       .btn__title--contact {
         font-size: 1.5rem; } }
@@ -708,7 +708,7 @@ li {
     border-radius: 2px; }
     @media screen and (max-width: 375px) {
       .btn--show-more {
-        width: 95px;
+        width: 115px;
         padding: 10px; } }
   .btn--contact {
     padding: 27px 85px;
@@ -775,6 +775,9 @@ li {
     @media screen and (max-width: 767px) {
       .banner__img {
         height: auto; } }
+    @media screen and (max-width: 320px) {
+      .banner__img {
+        object-position: -50px bottom; } }
   @media screen and (max-width: 767px) {
     .banner {
       height: auto; } }
@@ -809,9 +812,6 @@ li {
         flex-wrap: wrap;
         padding: 10px 0;
         justify-content: center; } }
-    @media screen and (max-width: 667px) {
-      .binding-target__list {
-        justify-content: space-evenly; } }
   .binding-target__item {
     min-height: 215px;
     width: 215px;
@@ -835,11 +835,11 @@ li {
     @media screen and (max-width: 667px) {
       .binding-target__item {
         min-height: 230px;
-        margin: 10px 0; } }
+        margin: 10px; } }
     @media screen and (max-width: 500px) {
       .binding-target__item {
         min-height: 140px;
-        margin: 5px 0; } }
+        margin: 7px; } }
   .binding-target__img-container {
     text-align: center; }
   .binding-target__img {
@@ -1127,10 +1127,16 @@ li {
     .feature {
       padding: 30px 0;
       background-size: 180%; } }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 500px) {
     .feature {
-      background-size: 810px;
-      background-position-x: -232px; } }
+      background-size: 320%;
+      background-position-x: -440px; } }
+  @media screen and (max-width: 375px) {
+    .feature {
+      background-position-x: -387px; } }
+  @media screen and (max-width: 320px) {
+    .feature {
+      background-position-x: -335px; } }
   .feature__wrapper {
     max-width: 950px;
     width: 90%;

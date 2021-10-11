@@ -12,9 +12,17 @@
     background-size: 180%;
   }
 
-  @media screen and (max-width: 425px) {
-    background-size: 810px;
-    background-position-x: -232px;
+  @media screen and (max-width: 500px) {
+    background-size: 320%;
+    background-position-x: -440px;
+  }
+
+  @media screen and (max-width: 375px) {
+    background-position-x: -387px;
+  }
+
+  @media screen and (max-width: 320px) {
+    background-position-x: -335px;
   }
 
   &__wrapper {
