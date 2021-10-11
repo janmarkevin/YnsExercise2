@@ -21,6 +21,10 @@
     @media screen and (max-width: 767px) {
       font-size: $font-large;
     }
+
+    @media screen and (max-width: 425px) {
+      padding: 0 0 10px 0;
+    }
   }
 
   &__text {
@@ -31,5 +35,13 @@
     @media screen and (max-width: 767px) {
       font-weight: $fontweight-medium;
     }
+
+    @media screen and (max-width: 425px) {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    min-height: 210px;
   }
 }
