@@ -28,6 +28,7 @@
   &__logo-links {
     @media screen and (max-width: 767px) {
       display: flex;
+      align-items: center;
     }
   }
 

@@ -21,5 +21,9 @@
     color: $primary-color;
     font-weight: $fontweight-bold;
     font-size: $font-med;
+
+    @media screen and (max-width: 375px) {
+      font-size: $font-small-half;
+    }
   }
 }

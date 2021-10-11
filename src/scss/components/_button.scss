@@ -21,6 +21,10 @@
     // work and news icon
     &--show-more {
       position: static;
+
+      @media screen and (max-width: 375px) {
+        width: 10px;
+      }
     }
   }
 
@@ -44,6 +48,10 @@
         @media screen and (max-width: 767px) {
           letter-spacing: 4px;
         }
+      }
+
+      @media screen and (max-width: 500px) {
+        font-size: $font-small-half;
       }
     }
   }
@@ -77,6 +85,10 @@
       font-size: $font-small-half;
       font-weight: $fontweight-regular;
       font-family: $ff-yugothic;
+
+      @media screen and (max-width: 375px) {
+        font-size: $font-small;
+      }
     }
 
     &--contact {
@@ -93,8 +105,8 @@
         font-size: 2.4rem;
       }
 
-      & img {
-
+      @media screen and (max-width: 500px) {
+        font-size: 1.3rem;
       }
     }
   }
@@ -116,6 +128,11 @@
     width: 160px;
     border: none;
     border-radius: 2px;
+
+    @media screen and (max-width: 375px) {
+      width: 95px;
+      padding: 10px;
+    }
   }
 
   //Contact Btn
@@ -150,6 +167,12 @@
       justify-content: space-evenly;
     }
 
+    @media screen and (max-width: 375px) {
+      width: 100%;
+      padding: 10px 20px;
+      justify-content: space-evenly;
+    }
+
     & img {
       width: 40px;
 
@@ -159,6 +182,10 @@
 
       @media screen and (max-width: 767px) {
         width: 45px;
+      }
+
+      @media screen and (max-width: 500px) {
+        width: 35px;
       }
     }
   }

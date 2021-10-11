@@ -26,12 +26,20 @@
     @media screen and (max-width: 767px) {
       padding: 15px 0;
     }
+
+    @media screen and (max-width: 425px) {
+      padding: 0;
+    }
   }
 
   &__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media screen and (max-width: 375px) {
+      padding: 0 0 15px 0;
+    }
   }
 
   &__item {
@@ -40,8 +48,23 @@
     margin: 13px 0;
     position: relative;
 
+    &-title {
+      color: $white-color;
+      font-size: $font-small-half;
+      font-family: $ff-yugothic;
+      font-weight: $fontweight-medium;
+
+      @media screen and (max-width: 375px) {
+        font-size: $font-small;
+      }  
+    }
+
     &:nth-of-type(7) .work__item-title {
       font-size: 1.3rem;
+
+      @media screen and (max-width: 375px) {
+        font-size: $font-small;
+      }
     }
 
     @media screen and (max-width: 1170px) {
@@ -51,10 +74,23 @@
     @media screen and (max-width: 767px) {
       width: 48%;
     }
+
+    @media screen and (max-width: 425px) {
+      height: 140px;
+    }
+
+    @media screen and (max-width: 375px) {
+      height: 115px;
+      margin: 5px 0;
+    }
+
+    @media screen and (max-width: 320px) {
+      height: 95px;
+    }
   }
 
   &__img-wrapper {
-    height: 180px;
+    height: 100%;
   }
 
   &__img {
@@ -66,7 +102,7 @@
 
   &__overlay {
     width: 100%;
-    height: 180px;
+    height: 100%;
     position: absolute;
     background: rgba($black-color, 0.6);
     top: 0;
@@ -80,13 +116,6 @@
       padding: 25px;
       text-align: center;
     }
-  }
-
-  &__item-title {
-    color: $white-color;
-    font-size: $font-small-half;
-    font-family: $ff-yugothic;
-    font-weight: $fontweight-medium;
   }
 
   &__btn-wrapper {

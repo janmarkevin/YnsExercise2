@@ -7,6 +7,10 @@
     border: none;
   }
 
+  @media screen and (max-width: 500px) {
+    padding: 15px 0;
+  }
+
   &__btn-wrapper {
     @include wrapper__a;
     display: flex;
@@ -16,6 +20,11 @@
       flex-direction: column;
       min-height: 180px;
       justify-content: space-between;
+    }
+
+    @media screen and (max-width: 500px) {
+      min-height: 135px;
+      justify-content: space-evenly;
     }
   }
 }

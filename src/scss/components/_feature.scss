@@ -12,6 +12,11 @@
     background-size: 180%;
   }
 
+  @media screen and (max-width: 425px) {
+    background-size: 810px;
+    background-position-x: -232px;
+  }
+
   &__wrapper {
     @include wrapper__a;
     text-align: center;
@@ -37,5 +42,9 @@
     font-weight: $fontweight-regular;
     font-size: $font-med;
     font-family: $ff-yumin;
+
+    @media screen and (max-width: 375px) {
+      font-size: $font-small-half;
+    }
   }
 }

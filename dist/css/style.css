@@ -520,6 +520,9 @@ li {
         .logo__text--footer {
           font-size: 1.3rem;
           padding: 0; } }
+      @media screen and (max-width: 320px) {
+        .logo__text--footer {
+          font-size: 1rem; } }
     @media screen and (max-width: 1100px) {
       .header__logo-container .logo__text {
         font-size: 1rem; } }
@@ -546,6 +549,9 @@ li {
       @media screen and (max-width: 767px) {
         .logo__img--footer {
           width: 130px; } }
+      @media screen and (max-width: 425px) {
+        .logo__img--footer {
+          width: 100px; } }
 
 .nav__list {
   display: flex;
@@ -597,6 +603,9 @@ li {
       left: 10px; }
     .btn__icon--show-more {
       position: static; }
+      @media screen and (max-width: 375px) {
+        .btn__icon--show-more {
+          width: 10px; } }
   .btn__title--contact {
     font-weight: 800;
     font-size: 2rem;
@@ -612,6 +621,9 @@ li {
     @media screen and (max-width: 767px) {
       .btn__title--contact-number {
         letter-spacing: 4px; } }
+    @media screen and (max-width: 500px) {
+      .btn__title--contact {
+        font-size: 1.5rem; } }
   .btn__text {
     font-size: 1.5rem;
     font-family: "Yu Gothic";
@@ -633,6 +645,9 @@ li {
       font-size: 1.5rem;
       font-weight: 300;
       font-family: "Yu Gothic"; }
+      @media screen and (max-width: 375px) {
+        .btn__text--work, .btn__text--news {
+          font-size: 1rem; } }
     .btn__text--contact {
       color: #FFF;
       font-size: 1.5rem;
@@ -644,6 +659,9 @@ li {
       @media screen and (max-width: 767px) {
         .btn__text--contact {
           font-size: 2.4rem; } }
+      @media screen and (max-width: 500px) {
+        .btn__text--contact {
+          font-size: 1.3rem; } }
   .btn--header-mail {
     display: flex;
     align-items: center;
@@ -657,6 +675,10 @@ li {
     width: 160px;
     border: none;
     border-radius: 2px; }
+    @media screen and (max-width: 375px) {
+      .btn--show-more {
+        width: 95px;
+        padding: 10px; } }
   .btn--contact {
     padding: 27px 85px;
     width: 46%;
@@ -682,6 +704,11 @@ li {
         width: 100%;
         padding: 10px 50px;
         justify-content: space-evenly; } }
+    @media screen and (max-width: 375px) {
+      .btn--contact {
+        width: 100%;
+        padding: 10px 20px;
+        justify-content: space-evenly; } }
     .btn--contact img {
       width: 40px; }
       @media screen and (max-width: 980px) {
@@ -690,6 +717,9 @@ li {
       @media screen and (max-width: 767px) {
         .btn--contact img {
           width: 45px; } }
+      @media screen and (max-width: 500px) {
+        .btn--contact img {
+          width: 35px; } }
   .btn__details {
     display: flex;
     flex-direction: column; }
@@ -871,25 +901,52 @@ li {
     @media screen and (max-width: 767px) {
       .work__list-wrapper {
         padding: 15px 0; } }
+    @media screen and (max-width: 425px) {
+      .work__list-wrapper {
+        padding: 0; } }
   .work__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
+    @media screen and (max-width: 375px) {
+      .work__list {
+        padding: 0 0 15px 0; } }
   .work__item {
     width: 255px;
     height: 180px;
     margin: 13px 0;
     position: relative; }
+    .work__item-title {
+      color: #FFF;
+      font-size: 1.5rem;
+      font-family: "Yu Gothic";
+      font-weight: 600; }
+      @media screen and (max-width: 375px) {
+        .work__item-title {
+          font-size: 1rem; } }
     .work__item:nth-of-type(7) .work__item-title {
       font-size: 1.3rem; }
+      @media screen and (max-width: 375px) {
+        .work__item:nth-of-type(7) .work__item-title {
+          font-size: 1rem; } }
     @media screen and (max-width: 1170px) {
       .work__item {
         width: 23%; } }
     @media screen and (max-width: 767px) {
       .work__item {
         width: 48%; } }
+    @media screen and (max-width: 425px) {
+      .work__item {
+        height: 140px; } }
+    @media screen and (max-width: 375px) {
+      .work__item {
+        height: 115px;
+        margin: 5px 0; } }
+    @media screen and (max-width: 320px) {
+      .work__item {
+        height: 95px; } }
   .work__img-wrapper {
-    height: 180px; }
+    height: 100%; }
   .work__img {
     width: 100%;
     height: 100%;
@@ -897,7 +954,7 @@ li {
     object-position: top; }
   .work__overlay {
     width: 100%;
-    height: 180px;
+    height: 100%;
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
     top: 0;
@@ -910,11 +967,6 @@ li {
       .work__overlay {
         padding: 25px;
         text-align: center; } }
-  .work__item-title {
-    color: #FFF;
-    font-size: 1.5rem;
-    font-family: "Yu Gothic";
-    font-weight: 600; }
   .work__btn-wrapper {
     display: flex;
     justify-content: end; }
@@ -1033,6 +1085,10 @@ li {
     .feature {
       padding: 30px 0;
       background-size: 180%; } }
+  @media screen and (max-width: 425px) {
+    .feature {
+      background-size: 810px;
+      background-position-x: -232px; } }
   .feature__wrapper {
     max-width: 950px;
     width: 90%;
@@ -1055,6 +1111,9 @@ li {
     font-weight: 300;
     font-size: 2rem;
     font-family: "Yu Mincho"; }
+    @media screen and (max-width: 375px) {
+      .feature__text {
+        font-size: 1.5rem; } }
 
 .contacts {
   padding: 50px 0 30px;
@@ -1063,6 +1122,9 @@ li {
     .contacts {
       padding: 30px 0;
       border: none; } }
+  @media screen and (max-width: 500px) {
+    .contacts {
+      padding: 15px 0; } }
   .contacts__btn-wrapper {
     max-width: 950px;
     width: 90%;
@@ -1074,6 +1136,10 @@ li {
         flex-direction: column;
         min-height: 180px;
         justify-content: space-between; } }
+    @media screen and (max-width: 500px) {
+      .contacts__btn-wrapper {
+        min-height: 135px;
+        justify-content: space-evenly; } }
 
 .footer__top {
   padding: 50px 0; }
@@ -1099,7 +1165,8 @@ li {
 
 @media screen and (max-width: 767px) {
   .footer__logo-links {
-    display: flex; } }
+    display: flex;
+    align-items: center; } }
 
 .footer__bottom {
   background: #cd282d;
@@ -1173,3 +1240,6 @@ li {
     color: #cd282d;
     font-weight: 800;
     font-size: 2rem; }
+    @media screen and (max-width: 375px) {
+      .footer-nav__links {
+        font-size: 1.5rem; } }
