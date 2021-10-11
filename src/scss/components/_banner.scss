@@ -26,15 +26,21 @@
     }
 
     @media screen and (max-width: 320px) {
-      object-position: -50px bottom;
+      object-position: center bottom;
     }
   }
 
   @media screen and (max-width: 767px) {
     height: auto;
+    margin: -255px 0 0 -145px;
+  }
+
+  @media screen and (max-width: 500px) {
+    height: auto;
+    margin: -131px 0 0 -80px;
   }
 
   @media screen and (max-width: 320px) {
-    margin-top: -115px;
+    margin: -115px 0 0 -60;
   }
 }

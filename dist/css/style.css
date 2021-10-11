@@ -777,13 +777,18 @@ li {
         height: auto; } }
     @media screen and (max-width: 320px) {
       .banner__img {
-        object-position: -50px bottom; } }
+        object-position: center bottom; } }
   @media screen and (max-width: 767px) {
     .banner {
-      height: auto; } }
+      height: auto;
+      margin: -255px 0 0 -145px; } }
+  @media screen and (max-width: 500px) {
+    .banner {
+      height: auto;
+      margin: -131px 0 0 -80px; } }
   @media screen and (max-width: 320px) {
     .banner {
-      margin-top: -115px; } }
+      margin: -115px 0 0 -60; } }
 
 .binding-target {
   background: #cd282d;
