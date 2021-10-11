@@ -18,5 +18,13 @@
       width: 120%;
       object-position: center bottom;
     }
+
+    @media screen and (max-width: 767px) {
+      height: 470px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    height: 470px;
   }
 }

@@ -456,8 +456,10 @@ li {
   .header__nav-container {
     margin: 15px 0 0 0; }
   @media screen and (max-width: 767px) {
-    .header__links {
-      display: none; } }
+    .header {
+      height: 100px; }
+      .header__links {
+        display: none; } }
   .header__mobile {
     display: none;
     bottom: -41px;
@@ -480,6 +482,9 @@ li {
       border-radius: 10px;
       position: absolute;
       top: -15px; }
+      @media screen and (max-width: 320px) {
+        .header__mobile-line::before {
+          top: -10px; } }
     .header__mobile-line::after {
       content: "";
       height: 6px;
@@ -489,6 +494,9 @@ li {
       position: absolute;
       top: -30px;
       left: 0; }
+      @media screen and (max-width: 320px) {
+        .header__mobile-line::after {
+          top: -20px; } }
   .header__mobile-title {
     font-size: 2rem;
     color: #cd282d;
@@ -496,6 +504,15 @@ li {
     text-transform: uppercase;
     font-weight: 800;
     margin: 5px 0 0 0; }
+    @media screen and (max-width: 425px) {
+      .header__mobile-title {
+        font-size: 1.8rem; } }
+    @media screen and (max-width: 375px) {
+      .header__mobile-title {
+        font-size: 1.5rem; } }
+    @media screen and (max-width: 320px) {
+      .header__mobile-title {
+        font-size: 1.2rem; } }
 
 .logo {
   display: flex;
@@ -539,6 +556,9 @@ li {
     @media screen and (max-width: 1100px) {
       .header__logo-container .logo__img {
         width: 80%; } }
+    @media screen and (max-width: 500px) {
+      .header__logo-container .logo__img {
+        width: 164px; } }
     .logo__img--footer {
       height: 50px;
       width: 190px;
@@ -739,6 +759,12 @@ li {
       .banner__img {
         width: 120%;
         object-position: center bottom; } }
+    @media screen and (max-width: 767px) {
+      .banner__img {
+        height: 470px; } }
+  @media screen and (max-width: 767px) {
+    .banner {
+      height: 470px; } }
 
 .binding-target {
   background: #cd282d;

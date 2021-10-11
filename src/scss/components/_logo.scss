@@ -61,6 +61,12 @@
       }
     }
 
+    @media screen and (max-width: 500px) {
+      .header__logo-container & {
+        width: 164px;
+      }
+    }
+
     &--footer {
       height: 50px;
       width: 190px;

@@ -28,6 +28,8 @@
     &__links {
       display: none;
     }
+
+    height: 100px;
   }
   
   // mobile
@@ -57,6 +59,10 @@
       border-radius: 10px;
       position: absolute;
       top: -15px;
+
+      @media screen and (max-width: 320px) {
+        top: -10px;
+      }
     }
 
     &::after {
@@ -68,6 +74,10 @@
       position: absolute;
       top: -30px;
       left: 0;
+
+      @media screen and (max-width: 320px) {
+        top: -20px;
+      }
     }
   }
 
@@ -78,6 +88,17 @@
     text-transform: uppercase;
     font-weight: $fontweight-bold;
     margin: 5px 0 0 0;
-  }
 
+    @media screen and (max-width: 425px) {
+      font-size: 1.8rem;
+    }
+
+    @media screen and (max-width: 375px) {
+      font-size: $font-small-half;
+    }
+
+    @media screen and (max-width: 320px) {
+      font-size: 1.2rem;
+    }
+  }
 }
