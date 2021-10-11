@@ -6,6 +6,8 @@
     @media screen and (max-width: 1100px) {
       overflow: hidden;
     }
+
+    background: $primary-color;
   }
 
   &__img {
@@ -20,11 +22,15 @@
     }
 
     @media screen and (max-width: 767px) {
-      height: 470px;
+      height: auto;
     }
   }
 
   @media screen and (max-width: 767px) {
-    height: 470px;
+    height: auto;
+  }
+
+  @media screen and (max-width: 320px) {
+    margin-top: -115px;
   }
 }

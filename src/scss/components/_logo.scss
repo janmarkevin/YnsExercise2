@@ -42,6 +42,12 @@
         font-size: 0.8rem;
       }
     }
+
+    @media screen and (max-width: 320px) {
+      .header__logo-container & {
+        font-size: 0.7rem;
+      }
+    }
   }
 
   &__img-wrapper {
@@ -64,6 +70,12 @@
     @media screen and (max-width: 500px) {
       .header__logo-container & {
         width: 164px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      .header__logo-container & {
+        width: 150px;
       }
     }
 
