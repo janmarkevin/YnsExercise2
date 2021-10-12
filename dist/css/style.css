@@ -874,9 +874,6 @@ li {
     @media screen and (max-width: 500px) {
       .binding-target__img {
         width: 90%; } }
-    @media screen and (max-width: 425px) {
-      .binding-target__img {
-        width: 100%; } }
   .binding-target__text {
     color: #FFF;
     font-size: 1.5rem;
