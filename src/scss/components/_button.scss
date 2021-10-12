@@ -18,18 +18,13 @@
       left: 10px;
     }
 
-    &--work,
-    &--news {
+    // work and news icon
+    &--show-more {
       position: static;
-      top: 7px;
-      right: 9px;
-    }
 
-    &--contact {
-      width: 40px;
-      right: 75px;
-      top: 34px;
-      position: absolute;
+      @media screen and (max-width: 375px) {
+        width: 10px;
+      }
     }
   }
 
@@ -40,6 +35,24 @@
       text-transform: uppercase;
       font-family: $ff-MicrosoftYahei;
       padding: 2px 0;
+
+      @media screen and (max-width: 980px) {
+        font-size: $font-small-half;
+      }
+
+      @media screen and (max-width: 767px) {
+        font-size: $font-large;
+      }
+
+      &-number {
+        @media screen and (max-width: 767px) {
+          letter-spacing: 5px;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        font-size: $font-small-half;
+      }
     }
   }
 
@@ -52,10 +65,18 @@
     &--small {
       font-size: $font-small;
       font-weight: $fontweight-medium;
+
+      @media screen and (max-width: 1100px) {
+        font-size: 0.8rem;
+      }
     }
 
     &--larger {
       font-size: $font-med-half;
+
+      @media screen and (max-width: 1100px) {
+        font-size: $font-med;
+      }
     }
 
     &--work,
@@ -64,6 +85,10 @@
       font-size: $font-small-half;
       font-weight: $fontweight-regular;
       font-family: $ff-yugothic;
+
+      @media screen and (max-width: 375px) {
+        font-size: $font-small;
+      }
     }
 
     &--contact {
@@ -71,6 +96,18 @@
       font-size: $font-small-half;
       font-weight: $fontweight-regular;
       font-family: $ff-yugothiclight;
+
+      @media screen and (max-width: 980px) {
+        font-size: 1.1rem;
+      }
+
+      @media screen and (max-width: 767px) {
+        font-size: 2.4rem;
+      }
+
+      @media screen and (max-width: 500px) {
+        font-size: 1.3rem;
+      }
     }
   }
 
@@ -91,24 +128,81 @@
     width: 160px;
     border: none;
     border-radius: 2px;
+
+    @media screen and (max-width: 767px) {
+      padding: 8px 8px;
+    }
+
+    @media screen and (max-width: 375px) {
+      width: 115px;
+      padding: 8px 10px;
+    }
   }
 
   //Contact Btn
   &--contact {
-    padding: 27px 93px;
+    padding: 27px 85px;
     width: 46%;
     color: $white-color;
     position: relative;
     border-radius: 0;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background: $primary-color;
     border: none;
     letter-spacing: 3px;
 
     &-grey {
       background: $light-grey;
-      margin: 0 25px 0 0;
     }
+
+    @media screen and (max-width: 980px) {
+      padding: 27px 70px;
+    }
+
+    @media screen and (max-width: 820px) {
+      padding: 27px 40px;
+    }
+
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      padding: 10px 50px;
+      justify-content: space-evenly;
+    }
+
+    @media screen and (max-width: 375px) {
+      width: 100%;
+      padding: 10px 20px;
+      justify-content: space-evenly;
+    }
+
+    & img {
+      width: 40px;
+
+      @media screen and (max-width: 980px) {
+        width: 35px;
+      }
+
+      @media screen and (max-width: 767px) {
+        width: 45px;
+      }
+
+      @media screen and (max-width: 500px) {
+        width: 35px;
+      }
+    }
+
+    &:nth-of-type(2) img {
+      @media screen and (max-width: 500px) {
+        position: relative;
+        top: -3px;
+      }
+    }
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
   }
 }

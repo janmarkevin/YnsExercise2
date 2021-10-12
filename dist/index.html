@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Seisaku</title>
     <meta name="description" content="Seisaku" />
@@ -29,7 +29,7 @@
                         <span class="btn__text btn__text--small">平日受付時間 午前9:00～午後18:00</span>
                     </button>
                     <button class="btn btn--header-mail">
-                        <img src="img/mail.png" alt="main" class="btn__icon btn__icon btn__icon--header-mail">
+                        <img src="img/mail.png" alt="main" class="btn__icon btn__icon--header-mail">
                         <span class="btn__text">メールでお問い合わせ</span>
                     </button>
                 </div>
@@ -37,7 +37,7 @@
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="#" class="nav__link">
+                                <a href="#" class="nav__link" title="Home">
                                     <img src="img/Asset3.png" alt="Home Icon">
                                 </a>
                             </li>
@@ -58,6 +58,12 @@
                             </li>
                         </ul>
                     </nav>
+                </div>
+            </div>
+            <div class="header__mobile">
+                <div class="header__mobile-wrapper">
+                    <div class="header__mobile-line">&nbsp;</div>
+                    <span class="header__mobile-title">Menu</span>
                 </div>
             </div>
         </div>
@@ -181,7 +187,7 @@
                 <div class="work__btn-wrapper">
                     <button class="btn btn--show-more">
                         <span class="btn__text btn__text--work">もっと見る</span>
-                        <img src="img/ArrowIcon.png" alt="Arrow Icon" class="btn__icon btn__icon--work">
+                        <img src="img/ArrowIcon.png" alt="Arrow Icon" class="btn__icon--show-more">
                     </button>
                 </div>
             </div>
@@ -190,7 +196,7 @@
     <section class="news">
         <div class="news__wrapper">
             <h2 class="news__title">News</h2>
-            <ul class="news__list-wrapper">
+            <ul class="news__list">
                 <li class="news__item">
                     <div class="news__img-wrapper">
                         <img src="img/ryoji-iwata.jpg" alt="Shibuya crossing" class="news__img">
@@ -243,7 +249,7 @@
                 <div class="news__btn-wrapper">
                     <button class="btn btn--show-more">
                         <span class="btn__text btn__text--news">もっと見る</span>
-                        <img src="img/ArrowIcon.png" alt="Arrow Icon" class="btn__icon btn__icon--news">
+                        <img src="img/ArrowIcon.png" alt="Arrow Icon" class="btn__icon--show-more">
                     </button>
                 </div>
             </div>
@@ -272,19 +278,99 @@
     <section class="contacts">
         <div class="contacts__btn-wrapper">
             <button class="btn btn--contact btn--contact-grey">
-                <span class="btn__title btn__title--contact">03-5826-4652</span>
-                <span class="btn__text btn__text--contact">午前9:00~午後 18:00</span>
-                <img src="img/tele-white.png" alt="Telephone" class="btn__icon btn__icon--contact">
+                <div class="btn__details">
+                    <span class="btn__title btn__title--contact btn__title--contact-number">03-5826-4652</span>
+                    <span class="btn__text btn__text--contact">午前9:00~午後 18:00</span>
+                </div>
+                <img src="img/tele-white.png" alt="Telephone" class="btn__contact-icons">
             </button>
             <button class="btn btn--contact">
-                <span class="btn__text btn__text--contact">メールでお問い合わせ</span>
-                <span class="btn__title btn__title--contact">Mail Contact</span>
-                <img src="img/mail-white.png" alt="Mail" class="btn__icon btn__icon--contact">
+                <div class="btn__details">
+                    <span class="btn__text btn__text--contact">メールでお問い合わせ</span>
+                    <span class="btn__title btn__title--contact">Mail Contact</span>
+                </div>
+                <img src="img/mail-white.png" alt="Mail" class="btn__contact-icons">
             </button>
         </div>
     </section>
     <footer class="footer">
         <div class="footer__top">
+            <div class="footer-nav">
+                <nav class="footer-nav__wrapper">
+                    <ul class="footer-nav__list">
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="Top">Top</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="制作実績">制作実績</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="制作料金プラン">制作料金プラン</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="ホームページ制作">ホームページ制作</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="ホームページ制作の流れ">ホームページ制作の流れ</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="ホームページっていくらで作れるの？">ホームページっていくらで作れるの？</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="ブランディングしたい！">ブランディングしたい！</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="採用したい！">採用したい！</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="他社と差別化して集客したい！">他社と差別化して集客したい！</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="スタッフ">スタッフ</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="よくある質問">よくある質問</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="代表メッセージ">代表メッセージ</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="会社概要">会社概要</a>
+                            </div>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__item-wrapper">
+                                <a href="#" class="footer-nav__links" title="プライバシーポリシー">プライバシーポリシー</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
             <div class="footer__wrapper">
                 <div class="footer__logo-links">
                     <a href="#" class="logo__img-wrapper" title="Logo">
@@ -315,83 +401,83 @@
                                     <tr class="table__row">
                                         <td class="table__data">&nbsp;</td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">ホームページ</a> 
+                                            <a href="#" class="table__links" title="ホームページ">ホームページ</a> 
                                         </td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">ホームページ料金</a> 
+                                            <a href="#" class="table__links" title="ホームページ料金">ホームページ料金</a> 
                                         </td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">制作の流れ</a> 
+                                            <a href="#" class="table__links" title="制作の流れ">制作の流れ</a> 
                                         </td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">会社概要</a> 
-                                        </td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__data">&nbsp;</td>
-                                        <td class="table__data">
-                                            <a href="#" class="table__links">スマートフォン対応</a>
-                                        </td>
-                                        <td class="table__data">
-                                            <a href="#" class="table__links">スマートフォン対応料金</a>
-                                        </td>
-                                        <td class="table__data">
-                                            <a href="#" class="table__links">無料診断</a>
-                                        </td>
-                                        <td class="table__data">
-                                            <a href="#" class="table__links">トップメッセージ</a>
+                                            <a href="#" class="table__links" title="会社概要">会社概要</a> 
                                         </td>
                                     </tr>
                                     <tr class="table__row">
                                         <td class="table__data">&nbsp;</td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">レスポンシブ対応</a>
+                                            <a href="#" class="table__links" title="スマートフォン対応">スマートフォン対応</a>
                                         </td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">レスポンシブ対応料金</a> 
+                                            <a href="#" class="table__links" title="スマートフォン対応料金">スマートフォン対応料金</a>
                                         </td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">よくある質問</a>
+                                            <a href="#" class="table__links" title="無料診断">無料診断</a>
                                         </td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">スタッフ紹介</a>
-                                        </td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__data">&nbsp;</td>
-                                        <td class="table__data">
-                                            <a href="#" class="table__links" class="table__links">ランディンクページ</a>
-                                        </td>
-                                        <td class="table__data">
-                                            <a href="#" class="table__links" class="table__links">ランディンクページ料金</a>
-                                        </td>
-                                        <td class="table__data">&nbsp;</td>
-                                        <td class="table__data">&nbsp;</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__data">&nbsp;</td>
-                                        <td class="table__data">
-                                            <a href="#" class="table__links" class="table__links">パララックスデザイン</a>
-                                        </td>
-                                        <td class="table__data">
-                                            <a href="#" class="table__links" class="table__links">パララックスデザイン料金</a>
-                                        </td>
-                                        <td class="table__data">&nbsp;</td>
-                                        <td class="table__data">
-                                            <a href="#" class="table__links" class="table__links">サイトマップ</a>
+                                            <a href="#" class="table__links" title="トップメッセージ">トップメッセージ</a>
                                         </td>
                                     </tr>
                                     <tr class="table__row">
                                         <td class="table__data">&nbsp;</td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">ショッピングサイト</a>
+                                            <a href="#" class="table__links" title="レスポンシブ対応">レスポンシブ対応</a>
                                         </td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">ショッピングサイト料金</a>
+                                            <a href="#" class="table__links" title="レスポンシブ対応料金">レスポンシブ対応料金</a> 
+                                        </td>
+                                        <td class="table__data">
+                                            <a href="#" class="table__links" title="よくある質問">よくある質問</a>
+                                        </td>
+                                        <td class="table__data">
+                                            <a href="#" class="table__links" title="スタッフ紹介">スタッフ紹介</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__data">&nbsp;</td>
+                                        <td class="table__data">
+                                            <a href="#" class="table__links" title="ランディンクページ">ランディンクページ</a>
+                                        </td>
+                                        <td class="table__data">
+                                            <a href="#" class="table__links" title="ランディンクページ料金">ランディンクページ料金</a>
+                                        </td>
+                                        <td class="table__data">&nbsp;</td>
+                                        <td class="table__data">&nbsp;</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__data">&nbsp;</td>
+                                        <td class="table__data">
+                                            <a href="#" class="table__links" title="パララックスデザイン">パララックスデザイン</a>
+                                        </td>
+                                        <td class="table__data">
+                                            <a href="#" class="table__links" title="パララックスデザイン料金">パララックスデザイン料金</a>
                                         </td>
                                         <td class="table__data">&nbsp;</td>
                                         <td class="table__data">
-                                            <a href="#" class="table__links">プライバシーポリシー</a>
+                                            <a href="#" class="table__links" title="サイトマップ">サイトマップ</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__data">&nbsp;</td>
+                                        <td class="table__data">
+                                            <a href="#" class="table__links" title="ショッピングサイト">ショッピングサイト</a>
+                                        </td>
+                                        <td class="table__data">
+                                            <a href="#" class="table__links" title="ショッピングサイト料金">ショッピングサイト料金</a>
+                                        </td>
+                                        <td class="table__data">&nbsp;</td>
+                                        <td class="table__data">
+                                            <a href="#" class="table__links" title="プライバシーポリシー">プライバシーポリシー</a>
                                         </td>
                                     </tr>
                                 </tbody>

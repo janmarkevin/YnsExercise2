@@ -9,14 +9,27 @@
     padding: 5px 9px;
     font-family: $ff-yugothic;
     font-size: $font-small-half;
+
+    @media screen and (max-width: 958px) {
+      padding: 5px 4px;
+      font-size: 1.3rem;
+    }
   }
 
   &__data {
     padding: 3px 9px;
+
+    @media screen and (max-width: 958px) {
+      padding: 3px 4px;
+    }
   }
 
   &__row {
     margin: 3px 10px;
+
+    @media screen and (max-width: 958px) {
+      margin: 3px 0;
+    }
   }
 
   &__links {
@@ -28,6 +41,10 @@
       font-weight: $ff-yugothic;
       text-decoration: underline;
       color: $primary-color;
+    }
+
+    @media screen and (max-width: 897px) {
+      font-size: 0.8rem;
     }
   }
 

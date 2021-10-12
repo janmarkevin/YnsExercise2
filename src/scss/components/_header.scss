@@ -23,4 +23,88 @@
   &__nav-container {
     margin: 15px 0 0 0;
   }
+
+  @media screen and (max-width: 767px) {
+    &__links {
+      display: none;
+    }
+
+    height: 100px;
+  }
+  
+  // mobile
+  &__mobile {
+    display: none;
+    bottom: -41px;
+    position: relative;
+
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+  }
+
+  &__mobile-line {
+    height: 5px;
+    width: 85%;
+    background: $primary-color;
+    border-radius: 10px;
+    margin: 0 auto 5px;
+    position: relative;
+
+    @media screen and (max-width: 320px) {
+      height: 4px;
+    }
+
+    &::before {
+      content: "";
+      height: 5px;
+      width: 100%;
+      background: $primary-color;
+      border-radius: 10px;
+      position: absolute;
+      top: -15px;
+
+      @media screen and (max-width: 320px) {
+        top: -11px;
+        height: 4px;
+      }
+    }
+
+    &::after {
+      content: "";
+      height: 5px;
+      width: 100%;
+      background: $primary-color;
+      border-radius: 10px;
+      position: absolute;
+      top: -30px;
+      left: 0;
+
+      @media screen and (max-width: 320px) {
+        top: -22px;
+        height: 4px;
+      }
+    }
+  }
+
+  &__mobile-title {
+    font-size: $font-med;
+    color: $primary-color;
+    font-family: $ff-MicrosoftTaiLe;
+    text-transform: uppercase;
+    font-weight: $fontweight-bold;
+    margin: 5px 0 0 0;
+
+    @media screen and (max-width: 425px) {
+      font-size: 1.8rem;
+    }
+
+    @media screen and (max-width: 375px) {
+      font-size: $font-small-half;
+    }
+
+    @media screen and (max-width: 320px) {
+      font-size: 1.2rem;
+    }
+  }
 }
